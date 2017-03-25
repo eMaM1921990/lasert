@@ -1,0 +1,26 @@
+{% extends 'base/base.html' %}
+{% load i18n staticfiles %}
+{% block title %}{% trans 'Clients' %}{% endblock %}
+{% block content %}
+    <section class="post-wrapper-top jt-shadow clearfix">
+        <div class="container">
+            <div class="col-lg-12">
+                <h2>{% trans 'Our Business Strategic Distributor & Partners' %}</h2>
+                <ul class="breadcrumb pull-right">
+                    <li>
+                        <a href="index.html" style="color: #aaa;">Home</a></li>
+                    <li>{% trans 'partners' %}</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+        <section class="partner partner-page content-page">
+
+        <div class="container">
+            {% include 'base/clientCard.html' %}
+        </div>
+    </section>
+
+
+{% endblock %}

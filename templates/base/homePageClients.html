@@ -1,0 +1,17 @@
+{% load i18n staticfiles %}
+<!-- Partner -->
+    <section class="partner">
+        <div class="container">
+            <div class="heading">
+                <p>{% trans 'DON`T TAKE MY WORD' %}</p>
+                {% blocktrans %}
+                    <h2>Awesome <span class="color_red">partner</span></h2>
+                {% endblocktrans %}
+            </div>
+            <ul class="partnerslider">
+                {% for partner in partners %}
+                    <li><img src="{{ partner.logo.url }}"/></li>
+                {% endfor %}
+            </ul>
+       </div>
+    </section>

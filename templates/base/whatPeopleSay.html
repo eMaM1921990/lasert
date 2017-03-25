@@ -1,0 +1,25 @@
+  <!-- Testimonials -->
+    <section class="testimonial">
+        <div class="container-fluid">
+            
+        <div class="testimonial-wrap">
+
+                <div class="heading centered-text">
+                    <div class="heading_border bg_red"></div>
+                    <p>See What People Say About Us</p>
+                    <h2>
+                        <i class="fa fa-comments"></i> 
+                        WHAT PEOPLE 
+                        <span class="color_red"> SAY</span>
+                    </h2>
+                </div>
+             
+                <ul class="sayslider">
+                    {% for recommend in recommends %}
+                        {% include 'base/peopleSayCard.html' %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>

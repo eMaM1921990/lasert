@@ -1,0 +1,31 @@
+{% load i18n %}
+<div class="panel panel-default ">
+
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">
+                                <h4 class="">{{ job.job_title }}</h4>
+                                <h5>{{ job.job_sector }}</h5>
+                                <h6><i class="material-icons">chrome_reader_mode</i> <span>{{ job.years_of_experience }} {% trans 'Years' %}</span></h6>
+                                <h6><i class="material-icons">location_on</i><span>{{ job.location }}</span></h6>
+                                <i class="material-icons arr-slide">keyboard_arrow_down</i>
+                            </a>
+                        </div>
+
+                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <h4>{% trans 'Job description' %}</h4>
+                                <p>{{ job.job_description }}</p>
+                                <br>
+
+                                <h4>{% trans 'Job skills' %}</h4>
+                                <p>
+                                    {{ job.job_skills }}
+                                </p>
+
+                                <hr>
+                                <h6>{% trans 'Apply on :' %}</h6>
+                                <a href="mailto:{{ job.job_mail }}">{{ job.job_mail }}</a>
+                            </div>
+                        </div>
+
+                    </div>

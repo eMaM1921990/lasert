@@ -1,0 +1,15 @@
+{% load i18n staticfiles %}
+<li class=" ">
+                        <div class="col-md-6 col-md-offset-3">
+
+                        <div class="quote">
+                            <p>{{ recommend.comment }}</p>
+                        </div>
+                        <div class="people">
+                            <img class="pull-left photo" src="{{ recommend.logo.url }}" alt="">
+
+                            <p class="name">{{ recommend.name }}</p>
+                            <p>{{ recommend.company }}</p>
+                        </div>
+                        </div>
+                    </li>

@@ -1,0 +1,28 @@
+ {% load i18n staticfiles %}
+  <!-- product slider -->
+    <section class="product-main">
+        <div class="container">
+
+            <div class="heading centered-text">
+                <div class="heading_border bg_red"></div>
+                <p>{% trans 'DON`T TAKE MY WORD' %}</p>
+                {% blocktrans %}
+                    <h2>Some <span class="color_red">products</span></h2>
+                {% endblocktrans %}
+            </div>
+
+            <div class="col-md-6 col-md-offset-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur praesentium nihil deserunt cupiditate, magni molestias facilis </p>
+            </div>
+
+
+
+
+        <ul class="productslider">
+            {% for solution in solutions %}
+                {% include 'base/homePageProductCard.html' %}
+            {% endfor %}
+
+        </ul>
+        </div>
+    </section>

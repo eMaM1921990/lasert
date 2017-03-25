@@ -1,0 +1,46 @@
+{% load i18n staticfiles %}
+<!-- Our-stats -->
+    <div class="our-stats section" id="our-stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="our-stats-box text-center">
+                            <div class="our-stat-icon">
+                                <i class="material-icons">assignment_ind</i>
+                            </div>
+                            <div class="our-stat-info">
+                                <span class="stats" data-from="4763904" data-to="4764504" data-speed="5000" data-refresh-interval="50">{{ today }}</span>
+
+                                <h5>{% trans 'Visit Today' %}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="our-stats-box text-center">
+                            <div class="our-stat-icon">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                            <div class="our-stat-info">
+                                <span class="stats" data-from="1" data-to="504" data-speed="5000" data-refresh-interval="50">{{ all }}</span>
+
+                                <h5>{% trans 'Visitors' %}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="our-stats-box text-center">
+                            <div class="our-stat-icon">
+                                <i class="fa fa-street-view"></i>
+                            </div>
+                            <div class="our-stat-info">
+                                <span class="stats" data-from="1" data-to="359" data-speed="5000" data-refresh-interval="50">{{ online }}</span>
+
+                                <h5>{% trans 'Online' %}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

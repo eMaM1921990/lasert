@@ -1,0 +1,59 @@
+{% extends 'base/base.html' %}
+{% load i18n staticfiles %}
+{% block title %}{% trans 'Clients' %}{% endblock %}
+{% block content %}
+
+    <section class="post-wrapper-top jt-shadow clearfix">
+        <div class="container">
+            <div class="col-lg-12">
+                <h2>career </h2>
+                <ul class="breadcrumb pull-right">
+                    <li>
+                        <a href="{% url 'home' %}" style="color: #aaa;">{% trans 'Home' %}</a></li>
+                    <li>{% trans 'Careers' %}</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="feature content-page">
+        <div class="container">
+
+             <div class="heading centered-text">
+
+                <p>{% trans 'Installation of high end solution' %}</p>
+                 {% blocktrans %}
+                <h2>Our <span class="color_red">jobs</span></h2>
+                 {% endblocktrans %}
+            </div>
+        {% blocktrans %}
+            <p class="centered-text col-md-8 col-md-offset-2">Laser Technology Trading welcomes you to its career section. Laser Technology Trading offers excellent opportunities for personal and professional development, along with several benefits and a work culture that embraces diversity. 
+
+            You can apply to any of the suitable jobs posted in this section. If you find that there are no suitable jobs in this section, you could still email your CV to <a href="mailto:ltt-careers@lasertt.com">ltt-careers@lasertt.com</a> and we will consider you for any future job opportunities.</p>
+        {% endblocktrans %}
+        </div>
+    </section>
+
+  <!-- product slider -->
+    <section class="career-page">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2" >
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        {% for job in jobs %}
+                            {% include 'base/jobCard.html' %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+
+{% endblock %}
+{% block jsSource %}
+<script>
+        new WOW().init();
+    </script>
+
+{% endblock %}

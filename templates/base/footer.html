@@ -1,0 +1,92 @@
+{% load i18n staticfiles %}
+<!-- Footer -->
+    <footer class="footer footer-white footer-big">
+        <div class="container">
+
+            <div class="content">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <a href="#"><h5>lasert technologhy</h5></a>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Distinctio enim animi minima quae neque numquam ipsam in consectetur assumenda
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h5>About</h5>
+                        <ul class="links-horzintial">
+                           {% include 'base/navLI.html' %}
+                        </ul>
+                        <hr>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <span>language</span>
+                                <span class="pull-left"><i class="material-icons">language</i></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="javascript:changeAppLanguage('ar')"><span class=""></span>{% trans 'Arabic' %}</a></li>
+                                <li><a href="javascript:changeAppLanguage('en')"><span class=""></span>{% trans 'English' %}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <h5>{% trans 'Subscribe to Newsletter' %}</h5>
+                        <p>
+                            {% trans 'Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.' %}
+                        </p>
+                        <form class="form form-newsletter" method="" action="">
+
+                            <div class="form-group is-empty">
+                                <input type="email" class="form-control" placeholder="{% trans 'Your Email...' %}">
+                            <span class="material-input"></span></div>
+
+                            <button type="button" class="btn btn-danger btn-just-icon" name="button">
+                                <i class="material-icons">email</i>
+                            </button>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <ul class="social-buttons">
+                <li>
+                    <a href="#" class="btn btn-just-icon btn-simple btn-twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn btn-just-icon btn-simple btn-facebook">
+                        <i class="fa fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn btn-just-icon btn-simple btn-google">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn btn-just-icon btn-simple btn-youtube">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="copyright pull-center">
+                {% blocktrans %}
+                    Copyright © <script>document.write(new Date().getFullYear())</script> lasert All Rights Reserved.
+                {% endblocktrans %}
+            </div>
+        </div>
+    </footer>
+{% csrf_token %}
+{#<button class="btn btn-info btn-fab btn-fab-mini btn-round fix-btn" onclick="showWidget()">#}
+{#        <i class="material-icons">chat</i>#}
+{#        <div class="ripple-container"></div>#}
+{#    </button>#}

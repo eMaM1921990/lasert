@@ -1,0 +1,138 @@
+{% extends 'base/base.html' %}
+{% load i18n staticfiles localizations%}
+{% block title %}{% trans 'Clients' %}{% endblock %}
+{% block content %}
+    <section class="post-wrapper-top jt-shadow clearfix">
+        <div class="container">
+            <div class="col-lg-12">
+                <h2>{% trans 'Services & solutions' %}</h2>
+                <ul class="breadcrumb pull-right">
+                    <li>
+                        <a href="{% url 'home' %}" style="color: #aaa;">Home</a></li>
+                    <li>{% trans 'Services' %}</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+      <!-- feature -->
+    <section class="feature content-page">
+        <div class="container">
+
+            <div class="laser-is-item-holder pull-left">
+                <div class="is-item is-left appeared">
+                    <div class="is-content">
+                        <span class="icon-shortcode laser-normal feature-lasert-large ">
+                            <i class="material-icons" >{{ services.0.icon }}</i></span>
+                        <h4 class="is-title">{{ services.0.getItemName }}</h4>
+                        <p class="is-text">{{ services.0.getItemDesc }}</p>
+                    </div>
+                </div>
+
+                <div class="is-item is-left appeared">
+                    <div class="is-content">
+                        <span class="icon-shortcode laser-normal feature-lasert-large">
+                        <i class="material-icons" >{{ services.1.icon }}</i></span>
+                        <h4 class="is-title">{{ services.1.getItemName }}</h4>
+                        <p class="is-text">{{ services.1.getItemDesc }}</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="laser-is-item-holder pull-right">
+
+                <div class="is-item is-right appeared">
+                    <div class="is-content">
+                         <span class="icon-shortcode laser-normal feature-lasert-large">
+                        <i class="material-icons" >{{ services.2.icon }}</i></span>
+                        <h4 class="is-title">{{ services.2.getItemName }}</h4>
+                        <p class="is-text">{{ services.2.getItemDesc }}</p>
+                    </div>
+                </div>
+
+                <div class="is-item is-right appeared">
+                    <div class="is-content">
+                         <span class="icon-shortcode laser-normal feature-lasert-large">
+                        <i class="material-icons" >{{ services.3.icon }}</i></span>
+                        <h4 class="is-title">{{ services.3.getItemName }}</h4>
+                        <p class="is-text">{{ services.3.getItemDesc }}</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="laser-is-image  hidden-sm hidden-xs">
+{#                <img width="230" src="{{ services.2.logo.url }}"#}
+{#                class="laser-is-first-image">#}
+{#                <img width="230" src="{{ services.0.logo.url }}" class="laser-is-stack-image"  >#}
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+    </section>
+
+
+      <!-- product slider -->
+    <section class="product-main product-page">
+        <div class="container-fluid">
+
+            <div class="heading centered-text">
+                <div class="heading_border bg_red"></div>
+                <p>{% trans 'Installation of high end solution' %}</p>
+                {% blocktrans %}
+                <h2>Some <span class="color_red">Solution</span></h2>
+                {% endblocktrans %}
+            </div>
+
+            <div class="col-md-6 col-md-offset-3">
+                <p>{% trans 'Broadcast and Audio Visual activities range from consultancy,  designing,  engineering,  supply and installation of high end solution such as ' %}</p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="menu col-md-2 col-md-offset-1">
+
+                <div class="filterMenu">
+                   <button class="btn btn-danger" data-filter="*">All</button>
+                  {% for category in categories %}
+                         <button class="btn btn-danger" data-filter=".{{ category.id }}">{{ category.getItemName }}</button>
+                  {% endfor %}
+                </div>
+
+            </div>
+
+
+            <div class="grid col-md-8 ">
+                {% for solution in solutions %}
+                    <div class="grid-item {{ solution.category.id }}">
+                        <img src="{{ solution.logo.url }}" alt="woman laughing">
+                        <p class="description ">{{ solution.getItemName }}</p>
+                    </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </section>
+
+
+
+        <div class="clearfix"></div>
+
+
+{% endblock %}
+{% block jsSource %}
+<!-- bxslider -->
+    <script src="{% static 'assets/js/plugin/jquery.bxslider.js' %}" type="text/javascript"></script>
+    <script src="{% static 'assets/js/material-kit.js' %}" type="text/javascript"></script>
+    <script src="{% static 'assets/js/intial.js' %}" type="text/javascript"></script>
+
+    <!--  fonticon iconmoon -->
+    <script src="{% static 'assets/js/plugin/liga.js' %}" type="text/javascript"></script>
+    <script src="{% static 'assets/js/plugin/filter-img.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'assets/js/filter.js' %}" type="text/javascript"></script>
+    <script src="{% static 'assets/js/plugin/modernizr.js' %}" type="text/javascript"></script>
+
+
+
+<script>
+        new WOW().init();
+    </script>
+{% endblock %}
