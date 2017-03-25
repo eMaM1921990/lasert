@@ -28,7 +28,7 @@ class SolutionCategory(models.Model):
 
     @property
     def getItemName(self):
-        if django.utils.translation.get_language() == 'en-us':
+        if django.utils.translation.get_language() == 'en':
             return self.category_name_en
         return self.category_name_ar
 
@@ -51,7 +51,7 @@ class Solutions(models.Model):
 
     @property
     def getItemName(self):
-        if django.utils.translation.get_language() == 'en-us':
+        if django.utils.translation.get_language() == 'en':
             return self.name_en
         return self.name_ar
 
@@ -78,13 +78,13 @@ class Serivces(models.Model):
     @property
     def getItemName(self):
         print django.utils.translation.get_language()
-        if django.utils.translation.get_language() == 'en-us':
+        if django.utils.translation.get_language() == 'en':
             return self.service_name_en
         return self.service_name_ar
 
     @property
     def getItemDesc(self):
-        if django.utils.translation.get_language() == 'en-us':
+        if django.utils.translation.get_language() == 'en':
             return self.description_en
         return self.service_name_ar
 

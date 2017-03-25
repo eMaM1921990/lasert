@@ -37,13 +37,13 @@
                         <p>
                             {% trans 'Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.' %}
                         </p>
-                        <form class="form form-newsletter" method="" action="">
-
+                        <form class="form form-newsletter" method="POST" action="javascript:subscripe()" id="subscribe_form">
+                            {% csrf_token %}
                             <div class="form-group is-empty">
-                                <input type="email" class="form-control" placeholder="{% trans 'Your Email...' %}">
+                                <input type="email" class="form-control" placeholder="{% trans 'Your Email...' %}" name="email" id="email">
                             <span class="material-input"></span></div>
 
-                            <button type="button" class="btn btn-danger btn-just-icon" name="button">
+                            <button type="submit" class="btn btn-danger btn-just-icon" name="button">
                                 <i class="material-icons">email</i>
                             </button>
 

@@ -1,9 +1,10 @@
+from django.http.response import HttpResponse
 from django.shortcuts import render
 
 
 # Create your views here.
 from lasertApp.forms import ContactUsForm
-from lasertApp.models import Partners, Recommends, Clients, Solutions, Serivces, SolutionCategory, Careers
+from lasertApp.models import Partners, Recommends, Clients, Solutions, Serivces, SolutionCategory, Careers, Subscribers
 from lasertApp.sessionManager import get_current_users, get_today_users, get_all_users
 
 
@@ -71,3 +72,13 @@ def careers(request):
 def about(request):
     template = 'about.html'
     return render(request, template)
+
+
+def addToSubscriber(request):
+    print 'Subscripe'
+    if request.POST:
+        try:
+            Subscribers(mail=request.POST['email']).save()
+        except Exception as e:
+            print e
+    return HttpResponse('OK')

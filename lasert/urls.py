@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^contactus/$', views.contact_us, name='contactUs'),
     url(r'^careers/$', views.careers, name='careers'),
     url(r'^about/$', views.about, name='about'),
+    url(r'^subscribe/$', views.addToSubscriber, name='subscribe'),
     url(r'^admin/', admin.site.urls),
 
 # serve media

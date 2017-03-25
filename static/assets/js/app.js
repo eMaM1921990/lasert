@@ -18,3 +18,19 @@ function changeAppLanguage(langCode){
         }
     });
 }
+
+
+function subscripe(){
+    $.ajax({
+        url: "/subscribe/",
+        type: 'POST',
+        data:new FormData(document.getElementById('subscribe_form')),
+        success: function (responseText) {
+               console.log(responseText);
+                $('#email').val();
+        },
+        error: function (xhr, errmsg, err) {
+            console.log(errmsg);
+        }
+    });
+}
