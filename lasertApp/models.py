@@ -142,6 +142,9 @@ class Careers(models.Model):
     job_mail = models.EmailField(null=False)
     create_date = models.DateTimeField(default=django.utils.timezone.now)
 
+    def __unicode__(self):
+        return self.job_title
+
     class Meta:
         managed = MANAGED
         db_table = 'careers'
