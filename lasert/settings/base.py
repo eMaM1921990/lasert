@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['107.180.106.251']
 # Application definition
 
 INSTALLED_APPS = [
+    'grappelli',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -183,3 +184,4 @@ RECAPTCHA_PRIVATE_KEY = '6LdSQBoUAAAAAE3dX0wLwI3lVKHTypZQgx8_maaY'
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
+GRAPPELLI_ADMIN_TITLE = 'Lasert Admin Panel'

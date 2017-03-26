@@ -1,2 +1,3 @@
 django-recaptcha
 PILLOW
+django-grappelli
