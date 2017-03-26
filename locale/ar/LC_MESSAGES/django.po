@@ -1,0 +1,443 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 10:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: lasertApp/forms.py:24
+msgid "Your name"
+msgstr ""
+
+#: lasertApp/forms.py:25
+msgid "Your email"
+msgstr ""
+
+#: lasertApp/forms.py:26
+msgid "Your phone"
+msgstr ""
+
+#: lasertApp/forms.py:27
+msgid "What do you want to say?"
+msgstr ""
+
+#: templates/about.html:3 templates/base/navLI.html:9 templates/partner.html:3
+msgid "Partners"
+msgstr ""
+
+#: templates/about.html:9
+msgid "About lasertt company"
+msgstr ""
+
+#: templates/about.html:12 templates/base/navLI.html:3 templates/career.html:12
+#: templates/contact.html:9
+msgid "Home"
+msgstr ""
+
+#: templates/about.html:13 templates/base/navLI.html:15
+msgid "About us"
+msgstr ""
+
+#: templates/about.html:24
+msgid "Laser Technology Trading"
+msgstr ""
+
+#: templates/about.html:25
+#, python-format
+msgid ""
+"\n"
+"                <p>is an Audio Visual and Digital\n"
+"                Systems Est. includes Broadcast system and CCTV systems, all "
+"these\n"
+"                business lines are the core business for LTT, was born 18 "
+"years ago by\n"
+"                100%% Saudi business holding, LTT supplies high-quality, "
+"hightechnology\n"
+"                products along with provides full range of services "
+"covering\n"
+"                engineering, supply, installation, services ….etc.</p>\n"
+"\n"
+"                <br>\n"
+"\n"
+"                <p>Our services directly support the advancement of KSA to "
+"provide\n"
+"                professional solution for Educational, Government, Military, "
+"Health\n"
+"                care and Private Sector (National and International).</p>\n"
+"                "
+msgstr ""
+
+#: templates/about.html:57
+msgid "Infrastructure Sectors as follows:"
+msgstr ""
+
+#: templates/about.html:67
+msgid "Audio Visual and Digital Systems"
+msgstr ""
+
+#: templates/about.html:75
+msgid ""
+"\n"
+"                                <p>LTT services government and private "
+"sectors with audio visual solutions\n"
+"                                    ranging from consultancy to supply and "
+"installation of AV systems. Our\n"
+"                                    service involves the latest technology "
+"used for auditoriums, meeting rooms,\n"
+"                                    e-learning and interactive technology.</"
+"p>\n"
+"                                <br>\n"
+"                                "
+msgstr ""
+
+#: templates/about.html:93
+msgid "Professional Broadcast and Production System"
+msgstr ""
+
+#: templates/about.html:101
+msgid ""
+"\n"
+"                                <p>This department serves the market with "
+"the latest technology in video\n"
+"                                   broadcast and Production systems. Our "
+"activities ranging from consultancy,\n"
+"                                   designing, supply, installation and "
+"training of Hi-end video/TV broadcast\n"
+"                                   system, which includes:</p>\n"
+"                                <br>\n"
+"                                <ul class=\"links-horzintial\">\n"
+"                                    <li>Analogue/digital video production "
+"system </li>\n"
+"                                    <li>TV Studios</li>\n"
+"                                    <li>O.B. Van systems</li>\n"
+"                                    <li>Post production systems</li>\n"
+"                                    <li>Archiving systems</li>\n"
+"                                </ul>\n"
+"                                "
+msgstr ""
+
+#: templates/about.html:125
+msgid "CCTV Security System."
+msgstr ""
+
+#: templates/about.html:133
+msgid ""
+"\n"
+"                                <p>This department serves the market with "
+"latest in the security field ranging\n"
+"                                from small systems for residential "
+"applications to large scale integrated\n"
+"                                .security systems</p>\n"
+"                                "
+msgstr ""
+
+#: templates/about.html:167
+msgid "High-technology infrastructure"
+msgstr ""
+
+#: templates/about.html:186
+#, python-format
+msgid ""
+"\n"
+"                                <p>Our ultimate objective is to be regarded "
+"as the benchmark for\n"
+"                                service excellence and client satisfaction. "
+"To also deliver elevated\n"
+"                                success and prosperity to our clients. We "
+"believe in providing highly\n"
+"                                personalized services that reflect the "
+"individual culture of our clients,\n"
+"                                and offer audio visual solutions tailored to "
+"their specific needs and\n"
+"                                goals. We focus on long-term partnerships "
+"and 100%% customer\n"
+"                                retention.</p>\n"
+"                                <br>\n"
+"                                <p>\n"
+"                                    LTT support KSA ongoing economy "
+"development by providing\n"
+"                                    professional integrated solution, "
+"design, installation, testing,\n"
+"                                    commissioning and programming and we "
+"would be the leading provider\n"
+"                                    of infrastructure solutions operating in "
+"Professional Broadcast grad,\n"
+"                                    Audio-Visual, Digital Systems, CCTV "
+"Security Solutions.\n"
+"                                </p>\n"
+"                                "
+msgstr ""
+
+#: templates/about.html:213
+msgid "Our Core Values"
+msgstr ""
+
+#: templates/about.html:221
+msgid ""
+"\n"
+"                            <p>\n"
+"                                Our Organization will be put our customers "
+"first at all times, provide\n"
+"                                good old fashion quality service and exceed "
+"our customers expectation\n"
+"                                wherever possible, actively implement the "
+"best business practice to\n"
+"                                generate confidence in our customers and "
+"staff, take ownership of\n"
+"                                problem solving, value its people.\n"
+"                            </p>\n"
+"                              "
+msgstr ""
+
+#: templates/about.html:241 templates/base/homePageSlider.html:35
+msgid "Mission"
+msgstr ""
+
+#: templates/about.html:249
+msgid ""
+"\n"
+"                            <p>\n"
+"                                LTT provides the highest level of service "
+"possible for our clients and\n"
+"                                their guests. We embrace the history, "
+"culture and character of every\n"
+"                                client and their community. We become a "
+"seamless partner and valued\n"
+"                                member of the team that will deliver "
+"extraordinary service at every turn\n"
+"                                by understanding customer requirements, "
+"offering the latest\n"
+"                                technologies and mythologies, providing the "
+"highest levels of customer\n"
+"                                support.\n"
+"\n"
+"                            </p>\n"
+"                              "
+msgstr ""
+
+#: templates/about.html:282
+msgid "Download profile"
+msgstr ""
+
+#: templates/about.html:283
+msgid "Download now"
+msgstr ""
+
+#: templates/base/footer.html:28
+msgid "Arabic"
+msgstr ""
+
+#: templates/base/footer.html:29
+msgid "English"
+msgstr ""
+
+#: templates/base/footer.html:36
+msgid "Subscribe to Newsletter"
+msgstr ""
+
+#: templates/base/footer.html:38
+msgid ""
+"Join our newsletter and get news in your inbox every week! We hate spam too, "
+"so no worries about this."
+msgstr ""
+
+#: templates/base/footer.html:43
+msgid "Your Email..."
+msgstr ""
+
+#: templates/base/footer.html:82
+msgid ""
+"\n"
+"                    Copyright © <script>document.write(new Date()."
+"getFullYear())</script> lasert All Rights Reserved.\n"
+"                "
+msgstr ""
+
+#: templates/base/homePageClients.html:6 templates/base/homePageProduct.html:8
+msgid "DON`T TAKE MY WORD"
+msgstr ""
+
+#: templates/base/homePageClients.html:7
+msgid ""
+"\n"
+"                    <h2>Awesome <span class=\"color_red\">partner</span></"
+"h2>\n"
+"                "
+msgstr ""
+
+#: templates/base/homePageInnerFeature.html:5
+msgid "Amazang feature"
+msgstr ""
+
+#: templates/base/homePageInnerFeature.html:7
+msgid "Read more"
+msgstr ""
+
+#: templates/base/homePageInnerFeature.html:8 templates/base/navLI.html:21
+msgid "Contact us"
+msgstr ""
+
+#: templates/base/homePageProduct.html:9
+msgid ""
+"\n"
+"                    <h2>Some <span class=\"color_red\">products</span></h2>\n"
+"                "
+msgstr ""
+
+#: templates/base/homePageSlider.html:15
+msgid "Our awesome services"
+msgstr ""
+
+#: templates/base/homePageSlider.html:16
+msgid "Take a look around and let us know if you have any questions."
+msgstr ""
+
+#: templates/base/homePageSlider.html:25
+msgid "Visitation"
+msgstr ""
+
+#: templates/base/homePageSlider.html:26
+msgid "Use this section to sign up for our newsletter"
+msgstr ""
+
+#: templates/base/homePageSlider.html:36
+msgid "View additional details abour our company"
+msgstr ""
+
+#: templates/base/homePageSlider.html:44
+msgid "Application"
+msgstr ""
+
+#: templates/base/homePageSlider.html:45
+msgid "See how the application process works"
+msgstr ""
+
+#: templates/base/jobCard.html:8
+msgid "Years"
+msgstr ""
+
+#: templates/base/jobCard.html:16
+msgid "Job description"
+msgstr ""
+
+#: templates/base/jobCard.html:20
+msgid "Job skills"
+msgstr ""
+
+#: templates/base/jobCard.html:26
+msgid "Apply on :"
+msgstr ""
+
+#: templates/base/navLI.html:6 templates/solutions.html:12
+msgid "Services"
+msgstr ""
+
+#: templates/base/navLI.html:12 templates/career.html:3 templates/client.html:3
+#: templates/solutions.html:3
+msgid "Clients"
+msgstr ""
+
+#: templates/base/navLI.html:18 templates/career.html:13
+msgid "Careers"
+msgstr ""
+
+#: templates/base/visitors.html:15
+msgid "Visit Today"
+msgstr ""
+
+#: templates/base/visitors.html:27
+msgid "Visitors"
+msgstr ""
+
+#: templates/base/visitors.html:39
+msgid "Online"
+msgstr ""
+
+#: templates/career.html:25 templates/solutions.html:80
+msgid "Installation of high end solution"
+msgstr ""
+
+#: templates/career.html:26
+msgid ""
+"\n"
+"                <h2>Our <span class=\"color_red\">jobs</span></h2>\n"
+"                 "
+msgstr ""
+
+#: templates/career.html:30
+msgid ""
+"\n"
+"            <p class=\"centered-text col-md-8 col-md-offset-2\">Laser "
+"Technology Trading welcomes you to its career section. Laser Technology "
+"Trading offers excellent opportunities for personal and professional "
+"development, along with several benefits and a work culture that embraces "
+"diversity. \n"
+"\n"
+"            You can apply to any of the suitable jobs posted in this "
+"section. If you find that there are no suitable jobs in this section, you "
+"could still email your CV to <a href=\"mailto:ltt-careers@lasertt.com\">ltt-"
+"careers@lasertt.com</a> and we will consider you for any future job "
+"opportunities.</p>\n"
+"        "
+msgstr ""
+
+#: templates/client.html:8 templates/partner.html:8
+msgid "Our Business Strategic Distributor & Partners"
+msgstr ""
+
+#: templates/client.html:12 templates/partner.html:12
+msgid "partners"
+msgstr ""
+
+#: templates/contact.html:7
+msgid "Keep touch with lassertt Company"
+msgstr ""
+
+#: templates/contact.html:10
+msgid "contact us"
+msgstr ""
+
+#: templates/contact.html:23
+msgid ""
+"You can contact us with anything related to our Products. We`ll get in touch "
+"with you as soon as possible."
+msgstr ""
+
+#: templates/contact.html:42
+msgid "How we can help you ? please choose section"
+msgstr ""
+
+#: templates/contact.html:74
+msgid "Contact Us"
+msgstr ""
+
+#: templates/solutions.html:8
+msgid "Services & solutions"
+msgstr ""
+
+#: templates/solutions.html:81
+msgid ""
+"\n"
+"                <h2>Some <span class=\"color_red\">Solution</span></h2>\n"
+"                "
+msgstr ""
+
+#: templates/solutions.html:87
+msgid ""
+"Broadcast and Audio Visual activities range from consultancy,  designing,  "
+"engineering,  supply and installation of high end solution such as "
+msgstr ""
