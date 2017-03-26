@@ -17,7 +17,7 @@ from os.path import join, dirname, expanduser
 BASE_DIR = os.path.join(dirname(dirname(__file__)), '..')
 TEMPLATE_DIR = BASE_DIR + '/templates'
 home = expanduser("~")
-
+PROJECT = '/opt/bitnami/apps/django/django_projects/lasert'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
@@ -151,7 +151,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'lasertt.log',
+            'filename': PROJECT+'/lasertt.log',
             'formatter': 'verbose'
         },
     },
@@ -168,7 +168,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # if not os.path.exists(home+'/proflag'):
 #     os.makedirs(home+'/proflag')
 
-MEDIA_URL = '/media/'
+MEDIA_URL = PROJECT+'/media/'
 
 
 IMG_RECOMMEND= 'recommend/'
