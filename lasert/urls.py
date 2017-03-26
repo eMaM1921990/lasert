@@ -29,6 +29,7 @@ urlpatterns = [
     url(r'^careers/$', views.careers, name='careers'),
     url(r'^about/$', views.about, name='about'),
     url(r'^subscribe/$', views.addToSubscriber, name='subscribe'),
+    url(r'^grappelli/', include('grappelli.urls')),  # grappelli URLS
     url(r'^admin/', admin.site.urls),
 
     # serve media
