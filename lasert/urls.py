@@ -31,7 +31,7 @@ urlpatterns = [
     url(r'^subscribe/$', views.addToSubscriber, name='subscribe'),
     url(r'^admin/', admin.site.urls),
 
-# serve media
+    # serve media
     url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT, }),
     # Localizations #
     url(r'^i18n/', include('django.conf.urls.i18n')),

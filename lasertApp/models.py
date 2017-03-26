@@ -152,6 +152,9 @@ class Careers(models.Model):
 class Subscribers(models.Model):
     mail = models.EmailField(null=False,unique=True)
 
+    def __unicode__(self):
+        return self.mail
+
     class Meta:
         managed = MANAGED
         db_table = 'subscribers'

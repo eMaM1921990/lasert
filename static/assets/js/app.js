@@ -21,13 +21,16 @@ function changeAppLanguage(langCode){
 
 
 function subscripe(){
+    var df = new FormData(document.getElementById('subscribe_form'));
     $.ajax({
         url: "/subscribe/",
         type: 'POST',
-        data:new FormData(document.getElementById('subscribe_form')),
+        cache: false,
+        contentType: false,
+        processData: false,
+        data: df,
         success: function (responseText) {
                console.log(responseText);
-                $('#email').val();
         },
         error: function (xhr, errmsg, err) {
             console.log(errmsg);
