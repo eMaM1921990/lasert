@@ -165,10 +165,9 @@ LOGGING = {
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Dynamic directory created
-if not os.path.exists(home+'/proflag'):
-    os.makedirs(home+'/proflag')
+# if not os.path.exists(home+'/proflag'):
+#     os.makedirs(home+'/proflag')
 
-MEDIA_ROOT = home+'/lasertt'
 MEDIA_URL = '/media/'
 
 
