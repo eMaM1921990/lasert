@@ -40,7 +40,7 @@ class ContactUsForm(forms.Form):
             "New contact form submission",
             content,
             "Your website" + '',
-            ['youremail@gmail.com'],
+            ['emam151987@gmail.com'],
             headers={'Reply-To': self.changed_data['contact_email']}
         )
         email.send()
