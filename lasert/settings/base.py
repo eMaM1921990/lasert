@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'lasert.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'lasert.db',
+        'NAME': '/opt/bitnami/apps/django/django_projects/lasert/lasert/lasert3.db',
     }
 }
 
