@@ -14,7 +14,8 @@ import os
 from os.path import join, dirname, expanduser
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.join(dirname(dirname(__file__)), '..')
+# BASE_DIR = os.path.join(dirname(dirname(__file__)), '..')
+BASE_DIR = '/opt/bitnami/apps/django/django_projects/lasert'
 TEMPLATE_DIR = BASE_DIR + '/templates'
 home = expanduser("~")
 PROJECT = '/opt/bitnami/apps/django/django_projects/lasert'
