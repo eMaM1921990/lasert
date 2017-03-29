@@ -11,7 +11,7 @@ MANAGED = True
 
 class Clients(models.Model):
     logo = models.ImageField(upload_to=settings.IMG_CLIENTS, verbose_name='Client Logo')
-    url = models.URLField(verbose_name='Client website')
+    url = models.URLField(verbose_name='Client website',null=True)
 
     class Meta:
         managed = MANAGED
