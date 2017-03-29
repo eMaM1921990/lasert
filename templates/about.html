@@ -1,6 +1,5 @@
 {% extends 'base/base.html' %}
 {% load i18n staticfiles %}
-{% load content_edit_tags %}
 {% block title %}{% trans 'Partners' %}{% endblock %}
 {% block content %}
 
@@ -17,7 +16,6 @@
         </div>
     </section>
 
-    {% cms_content 'about_us_section_one' %}
 
     <!-- feature -->
     <section class="feature content-page">
@@ -290,11 +288,4 @@
 
 
     <div class="clearfix"></div>
-{% endblock %}
-{% block jsSource %}
-
-    <script type="text/javascript" src='{% static 'ckeditor/ckeditor.js' %}'></script>
-<script type="text/javascript" src='{% static 'jquery/jquery.js' %}'></script>
-<script type="text/javascript" src='{% static 'content_edit/content_edit.js' %}'></script>
-
 {% endblock %}
