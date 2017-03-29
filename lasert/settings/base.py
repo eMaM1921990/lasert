@@ -171,7 +171,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # if not os.path.exists(home+'/proflag'):
 #     os.makedirs(home+'/proflag')
 
-MEDIA_URL = '/media/'
+MEDIA_URL = '/lasert/media/'
 
 
 IMG_RECOMMEND= 'recommend/'
