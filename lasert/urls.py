@@ -31,6 +31,7 @@ urlpatterns = [
     url(r'^subscribe/$', views.addToSubscriber, name='subscribe'),
     url(r'^grappelli/', include('grappelli.urls')),  # grappelli URLS
     url(r'^admin/', admin.site.urls),
+    url(r'^content_edit/', include('content_edit.urls')),
 
     # serve media
     url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT, }),
