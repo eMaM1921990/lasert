@@ -22,27 +22,17 @@
         <div class="container">
 
             <div class="col-md-6 pull-right">
-                <h2>{% trans 'Laser Technology Trading' %}</h2>
-                {% blocktrans %}
-                <p>is an Audio Visual and Digital
-                Systems Est. includes Broadcast system and CCTV systems, all these
-                business lines are the core business for LTT, was born 18 years ago by
-                100% Saudi business holding, LTT supplies high-quality, hightechnology
-                products along with provides full range of services covering
-                engineering, supply, installation, services ….etc.</p>
+                <h2>{{ about.section_one_title }}</h2>
+                <p>{{ about.section_one_description }}</p>
 
                 <br>
 
-                <p>Our services directly support the advancement of KSA to provide
-                professional solution for Educational, Government, Military, Health
-                care and Private Sector (National and International).</p>
-                {% endblocktrans %}
             </div>
 
             <div class="col-md-6 hidden-sm hidden-xs">
-                <img width="330" src="http://placehold.it/550x350"
+                <img width="330" src="{{ about.section_one_first_image.url }}"
                 class="">
-                <img width="230" src="http://placehold.it/550x350" class="laser-is-stack-image"  >
+                <img width="230" src="{{ about.section_two_first_image.url }}"  >
             </div>
             <div class="clearfix"></div>
 
@@ -55,94 +45,10 @@
 
             <div class="col-md-6 pull-left">
 
-                <h2>{% trans 'Infrastructure Sectors as follows:' %}</h2>
+                <h2>{{{ about.section_two_title }}</h2>
 
 
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                    <div class="panel panel-default">
-
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">
-                                <h4 class="panel-title">
-                                {% trans 'Audio Visual and Digital Systems' %}
-                                <i class="material-icons">keyboard_arrow_down</i>
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                {% blocktrans %}
-                                <p>LTT services government and private sectors with audio visual solutions
-                                    ranging from consultancy to supply and installation of AV systems. Our
-                                    service involves the latest technology used for auditoriums, meeting rooms,
-                                    e-learning and interactive technology.</p>
-                                <br>
-                                {% endblocktrans %}
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="panel panel-default">
-
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2" class="collapsed">
-                                <h4 class="panel-title">
-                                {% trans 'Professional Broadcast and Production System' %}
-                                <i class="material-icons">keyboard_arrow_down</i>
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                {% blocktrans %}
-                                <p>This department serves the market with the latest technology in video
-                                   broadcast and Production systems. Our activities ranging from consultancy,
-                                   designing, supply, installation and training of Hi-end video/TV broadcast
-                                   system, which includes:</p>
-                                <br>
-                                <ul class="links-horzintial">
-                                    <li>Analogue/digital video production system </li>
-                                    <li>TV Studios</li>
-                                    <li>O.B. Van systems</li>
-                                    <li>Post production systems</li>
-                                    <li>Archiving systems</li>
-                                </ul>
-                                {% endblocktrans %}
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="panel panel-default">
-
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3" class="collapsed">
-                                <h4 class="panel-title">
-                               {% trans 'CCTV Security System.' %}
-                                <i class="material-icons">keyboard_arrow_down</i>
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                {% blocktrans %}
-                                <p>This department serves the market with latest in the security field ranging
-                                from small systems for residential applications to large scale integrated
-                                .security systems</p>
-                                {% endblocktrans %}
-                                <br>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+                {{ about.section_two_description_html }}
 
                 <br>
 
@@ -150,9 +56,9 @@
             </div>
 
             <div class="col-md-6 hidden-sm hidden-xs">
-                <img width="330" src="http://placehold.it/550x350"
+                <img width="330" src="{{ about.section_two_first_image.url }}"
                 class="">
-                <img width="230" src="http://placehold.it/550x350" class="laser-is-stack-image"  >
+                <img width="230" src="{{ about.section_two_second_image.url }}" class="laser-is-stack-image"  >
             </div>
             <div class="clearfix"></div>
 
@@ -165,110 +71,15 @@
 
             <div class="col-md-6 pull-right">
 
-                <h3 class="color-white">{% trans 'High-technology infrastructure' %}
+                <h3 class="color-white">
                 </h3>
 
 
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                    <div class="panel panel-default">
-
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
-                                <h4 class="panel-title">
-                                Our Vision
-                                <i class="material-icons">keyboard_arrow_down</i>
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                {% blocktrans %}
-                                <p>Our ultimate objective is to be regarded as the benchmark for
-                                service excellence and client satisfaction. To also deliver elevated
-                                success and prosperity to our clients. We believe in providing highly
-                                personalized services that reflect the individual culture of our clients,
-                                and offer audio visual solutions tailored to their specific needs and
-                                goals. We focus on long-term partnerships and 100% customer
-                                retention.</p>
-                                <br>
-                                <p>
-                                    LTT support KSA ongoing economy development by providing
-                                    professional integrated solution, design, installation, testing,
-                                    commissioning and programming and we would be the leading provider
-                                    of infrastructure solutions operating in Professional Broadcast grad,
-                                    Audio-Visual, Digital Systems, CCTV Security Solutions.
-                                </p>
-                                {% endblocktrans %}
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="panel panel-default">
-
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h4 class="panel-title">
-                              {% trans 'Our Core Values' %}
-                              <i class="material-icons">keyboard_arrow_down</i>
-                            </h4>
-                          </a>
-                        </div>
-
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                          <div class="panel-body">
-                              {% blocktrans %}
-                            <p>
-                                Our Organization will be put our customers first at all times, provide
-                                good old fashion quality service and exceed our customers expectation
-                                wherever possible, actively implement the best business practice to
-                                generate confidence in our customers and staff, take ownership of
-                                problem solving, value its people.
-                            </p>
-                              {% endblocktrans %}
-
-                          </div>
-                        </div>
-
-                    </div>
-
-                    <div class="panel panel-default">
-
-                        <div class="panel-heading" role="tab" id="headingThree">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h4 class="panel-title">
-                              {% trans 'Mission' %}
-                              <i class="material-icons">keyboard_arrow_down</i>
-                            </h4>
-                          </a>
-                        </div>
-
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                          <div class="panel-body">
-                              {% blocktrans %}
-                            <p>
-                                LTT provides the highest level of service possible for our clients and
-                                their guests. We embrace the history, culture and character of every
-                                client and their community. We become a seamless partner and valued
-                                member of the team that will deliver extraordinary service at every turn
-                                by understanding customer requirements, offering the latest
-                                technologies and mythologies, providing the highest levels of customer
-                                support.
-
-                            </p>
-                              {% endblocktrans %}
-                          </div>
-                        </div>
-
-                    </div>
-
-                </div>
+               {{ about.section_three_description_html }}
             </div>
 
             <div class="col-md-6 hidden-sm hidden-xs">
-                <img width="500" src="http://placehold.it/500x350"
+                <img width="500" src="{{ about.section_three_second_image.url }}"
                 class="">
             </div>
 

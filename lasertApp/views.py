@@ -5,7 +5,7 @@ from django.shortcuts import render
 # Create your views here.
 from lasertApp.forms import ContactUsForm
 from lasertApp.models import Partners, Recommends, Clients, Solutions, Serivces, SolutionCategory, Careers, Subscribers, \
-    Slider
+    Slider, About
 from lasertApp.sessionManager import get_current_users, get_today_users, get_all_users
 
 
@@ -73,7 +73,10 @@ def careers(request):
 
 def about(request):
     template = 'about.html'
-    return render(request, template)
+    context ={
+        'about':About.objects.all()
+    }
+    return render(request, template,context)
 
 
 def addToSubscriber(request):
