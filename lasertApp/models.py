@@ -124,6 +124,9 @@ class Mailer(models.Model):
     email = models.EmailField(max_length=150)
     group = models.CharField(max_length=150, choices=[('1', _("New Customer")), ('2', _("Sales Service"))])
 
+    def __unicode__(self):
+        return self.email
+
     class Meta:
         managed = MANAGED
         db_table = 'mailers'
