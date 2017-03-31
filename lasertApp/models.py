@@ -6,12 +6,14 @@ from django.db import models
 from django.utils import timezone
 
 # Create your models here.
+from django.utils.translation import ugettext_lazy as _
+
 MANAGED = True
 
 
 class Clients(models.Model):
     logo = models.ImageField(upload_to=settings.IMG_CLIENTS, verbose_name='Client Logo')
-    url = models.URLField(verbose_name='Client website',null=True)
+    url = models.URLField(verbose_name='Client website', null=True)
 
     class Meta:
         managed = MANAGED
@@ -48,13 +50,11 @@ class Solutions(models.Model):
     def __unicode__(self):
         return self.name_en
 
-
     @property
     def getItemName(self):
         if django.utils.translation.get_language() == 'en':
             return self.name_en
         return self.name_ar
-
 
     class Meta:
         managed = MANAGED
@@ -87,7 +87,6 @@ class Serivces(models.Model):
         if django.utils.translation.get_language() == 'en':
             return self.description_en
         return self.service_name_ar
-
 
     class Meta:
         managed = MANAGED
@@ -123,7 +122,7 @@ class Recommends(models.Model):
 
 class Mailer(models.Model):
     email = models.EmailField(max_length=150)
-    group = models.CharField(max_length=150)
+    group = models.CharField(max_length=150, choices=[('1', _("New Customer")), ('2', _("Sales Service"))])
 
     class Meta:
         managed = MANAGED
@@ -132,12 +131,12 @@ class Mailer(models.Model):
 
 
 class Careers(models.Model):
-    job_title = models.CharField(max_length=150,null=False,unique=True)
-    job_sector = models.CharField(max_length=150,null=False)
-    years_of_experience = models.CharField(max_length=150,null=False)
-    location = models.CharField(max_length=150,null=False)
+    job_title = models.CharField(max_length=150, null=False, unique=True)
+    job_sector = models.CharField(max_length=150, null=False)
+    years_of_experience = models.CharField(max_length=150, null=False)
+    location = models.CharField(max_length=150, null=False)
     job_description = models.TextField()
-    job_skills= models.TextField()
+    job_skills = models.TextField()
     is_active = models.BooleanField(default=True)
     job_mail = models.EmailField(null=False)
     create_date = models.DateTimeField(default=django.utils.timezone.now)
@@ -153,7 +152,7 @@ class Careers(models.Model):
 
 
 class Subscribers(models.Model):
-    mail = models.EmailField(null=False,unique=True)
+    mail = models.EmailField(null=False, unique=True)
 
     def __unicode__(self):
         return self.mail
@@ -164,3 +163,32 @@ class Subscribers(models.Model):
         verbose_name_plural = 'Subscribers'
 
 
+class Slider(models.Model):
+    img = models.ImageField(upload_to=settings.IMG_SLIDER)
+    title_ar = models.CharField(max_length=150)
+    title_en = models.CharField(max_length=150)
+    description_ar = models.CharField(max_length=150)
+    description_en = models.CharField(max_length=150)
+    active = models.BooleanField(default=True)
+
+    def __unicode__(self):
+        return self.content_en
+
+    @property
+    def getItemName(self):
+        print django.utils.translation.get_language()
+        if django.utils.translation.get_language() == 'en':
+            return self.title_en
+        return self.title_ar
+
+    @property
+    def getItemDesc(self):
+        print django.utils.translation.get_language()
+        if django.utils.translation.get_language() == 'en':
+            return self.description_en
+        return self.description_ar
+
+    class Meta:
+        managed = MANAGED
+        db_table = 'sliders'
+        verbose_name_plural = 'Home sliders'

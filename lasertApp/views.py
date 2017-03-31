@@ -4,7 +4,8 @@ from django.shortcuts import render
 
 # Create your views here.
 from lasertApp.forms import ContactUsForm
-from lasertApp.models import Partners, Recommends, Clients, Solutions, Serivces, SolutionCategory, Careers, Subscribers
+from lasertApp.models import Partners, Recommends, Clients, Solutions, Serivces, SolutionCategory, Careers, Subscribers, \
+    Slider
 from lasertApp.sessionManager import get_current_users, get_today_users, get_all_users
 
 
@@ -18,6 +19,7 @@ def index(request):
     context['online'] = get_current_users()
     context['today'] = get_today_users()
     context['all'] = get_all_users()
+    context['sliders'] = Slider.objects.all()
     return render(request, template,context=context)
 
 
@@ -28,8 +30,8 @@ def contact_us(request):
         form = ContactUsForm(request.POST)
         print 'pos'
         if form.is_valid():
-            print 'vald'
-            pass
+            form.send_email()
+
     else:
         form = ContactUsForm
     context['form'] = form

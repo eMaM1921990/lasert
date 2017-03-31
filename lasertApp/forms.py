@@ -1,13 +1,15 @@
-from cProfile import label
-
 from captcha.fields import ReCaptchaField
 from django import forms
 from django.core.mail import EmailMessage
 from django.template.loader import get_template
 from django.utils.translation import ugettext_lazy as _
 
+from lasertApp.models import Mailer
+
 
 class ContactUsForm(forms.Form):
+    STATUS_CHOICES=[('1',_("New Customer")),('2',_("Sales Service"))]
+    to = forms.ChoiceField(choices = STATUS_CHOICES, label="", initial='', widget=forms.Select(), required=True)
     contact_name = forms.CharField(required=True,widget=forms.TextInput(attrs={'class' : 'form-control'}))
     contact_email = forms.EmailField(required=True,widget=forms.TextInput(attrs={'class' : 'form-control'}))
     contact_phone = forms.CharField(required=True,widget=forms.TextInput(attrs={'class' : 'form-control'}))
@@ -27,21 +29,23 @@ class ContactUsForm(forms.Form):
         self.fields['content'].label = _("What do you want to say?")
 
     def send_email(self):
+        mailList = list(Mailer.objects.filter(group=self.cleaned_data['to']).values('email'))
+        #
         # Email the profile with the
         # contact information
         template =get_template('contact_template.txt')
-        context = {'contact_name': self.changed_data['contact_name'],
-                   'contact_email': self.changed_data['contact_email'],
-                   'form_content': self.changed_data['content'],
-                   'contact_phone': self.changed_data['contact_phone']
+        context = {'contact_name': self.cleaned_data['contact_name'],
+                   'contact_email': self.cleaned_data['contact_email'],
+                   'form_content': self.cleaned_data['content'],
+                   'contact_phone': self.cleaned_data['contact_phone']
                     }
         content = template.render(context)
         email = EmailMessage(
             "New contact form submission",
             content,
             "Your website" + '',
-            ['emam151987@gmail.com'],
-            headers={'Reply-To': self.changed_data['contact_email']}
+            mailList,
+            headers={'Reply-To': self.cleaned_data['contact_email']}
         )
         email.send()
 

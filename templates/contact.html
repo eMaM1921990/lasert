@@ -40,12 +40,8 @@
 
                             {% csrf_token %}
                             <p>{% trans 'How we can help you ? please choose section' %}</p>
-                            <select name="" id="cusSelectbox" placeholder="How we can help you ?">
-                                <!-- <option value="Select">How we can help you ?</option> -->
-                                <option value="India">New customer</option>
-                                <option value="India">Services Sales </option>
-                               
-                            </select>
+
+                        {{ form.to }}
                             <div class="clearfix"></div>   
                             <br> 
 							<div class="form-group col-md-12 label-floating">

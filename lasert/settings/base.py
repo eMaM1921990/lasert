@@ -28,7 +28,7 @@ SECRET_KEY = '=8!6=!r)+sg^7k4bem-r05xls_1heyd(ans-9ybd)19zjs3c$j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['107.180.106.251','lasertt.com',]
+ALLOWED_HOSTS = ['107.180.106.251','lasertt.com','127.0.0.1']
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'lasertApp',
     'captcha',
+    'froala_editor',
 ]
 
 MIDDLEWARE = [
@@ -171,13 +172,15 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # if not os.path.exists(home+'/proflag'):
 #     os.makedirs(home+'/proflag')
 
-MEDIA_URL = '/lasert/media/'
+MEDIA_URL = '/media/'
 
 
 IMG_RECOMMEND= 'recommend/'
 IMG_CLIENTS='clients/'
 IMG_PARTNERS='partners/'
 IMG_SERVICE = 'service/'
+FROALA_UPLOAD_PATH = 'froala/'
+IMG_SLIDER = 'sliders/'
 
 
 RECAPTCHA_PUBLIC_KEY = '6LdSQBoUAAAAAJAgz8lQJK-tFevaHjfyX_shnBti'
@@ -196,3 +199,9 @@ DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
 EMAIL_HOST_USER = 'no-replay@lasertt.com'
 EMAIL_HOST_PASSWORD = 'mBa5bgM8}o7~'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+
+FROALA_EDITOR_PLUGINS = ('align', 'char_counter', 'code_beautifier' ,'code_view', 'colors', 'draggable', 'emoticons',
+        'entities', 'file', 'font_family', 'font_size', 'fullscreen', 'image_manager', 'image', 'inline_style',
+        'line_breaker', 'link', 'lists', 'paragraph_format', 'paragraph_style', 'quick_insert', 'quote', 'save', 'table',
+        'url', 'video')

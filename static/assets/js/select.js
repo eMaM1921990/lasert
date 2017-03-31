@@ -1,7 +1,7 @@
    $(function () {
 
-    var defaultselectbox = $('#cusSelectbox');
-    var numOfOptions = $('#cusSelectbox').children('option').length;
+    var defaultselectbox = $('#id_to');
+    var numOfOptions = $('#id_to').children('option').length;
 
     // hide select tag
     defaultselectbox.addClass('s-hidden');
@@ -84,4 +84,4 @@ function focusItems() {
         }
     }).find('li').first().focus();
 
-}ß
+}
