@@ -31,6 +31,7 @@ function subscripe(){
         data: df,
         success: function (responseText) {
                console.log(responseText);
+                $('#email').val('');
         },
         error: function (xhr, errmsg, err) {
             console.log(errmsg);
