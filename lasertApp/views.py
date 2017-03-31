@@ -74,7 +74,7 @@ def careers(request):
 def about(request):
     template = 'about.html'
     context ={
-        'about':About.objects.all()
+        'about':About.objects.first()
     }
     return render(request, template,context)
 
