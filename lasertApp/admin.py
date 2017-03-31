@@ -19,6 +19,6 @@ class AboutAdminModel(admin.ModelAdmin):
 
     def queryset(self, request):
         qs = super(AboutAdminModel, self).queryset(request)
-        return qs[:1]
+        return qs.first()
 
 admin.site.register(About, AboutAdminModel)
