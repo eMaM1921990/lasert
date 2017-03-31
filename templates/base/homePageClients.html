@@ -10,7 +10,7 @@
             </div>
             <ul class="partnerslider">
                 {% for partner in partners %}
-                    <li><img src="{{ partner.logo.url }}"/></li>
+                    <li><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.logo.url }}"/></a></li>
                 {% endfor %}
             </ul>
        </div>
