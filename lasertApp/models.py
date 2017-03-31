@@ -172,7 +172,7 @@ class Slider(models.Model):
     active = models.BooleanField(default=True)
 
     def __unicode__(self):
-        return self.content_en
+        return self.title_ar
 
     @property
     def getItemName(self):
