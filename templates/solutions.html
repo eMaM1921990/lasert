@@ -92,7 +92,7 @@
                 <div class="filterMenu">
                    <button class="btn btn-danger" data-filter="*">All</button>
                   {% for category in categories %}
-                         <button class="btn btn-danger" data-filter=".{{ category.id }}">{{ category.getItemName }}</button>
+                         <button class="btn btn-default" data-filter=".{{ category.id }}">{{ category.getItemName }}</button>
                   {% endfor %}
                 </div>
 
