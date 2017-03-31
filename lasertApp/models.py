@@ -212,7 +212,7 @@ class About(models.Model):
     section_three_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
 
     def __unicode__(self):
-        return str(self.pk)+'-'+self.section_one_title
+        return str(self.pk)+'- Click to edit'
 
 
     class Meta:
