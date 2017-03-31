@@ -178,7 +178,7 @@ IMG_RECOMMEND= 'recommend/'
 IMG_CLIENTS='clients/'
 IMG_PARTNERS='partners/'
 IMG_SERVICE = 'service/'
-FROALA_UPLOAD_PATH = 'froala/'
+IMG_ABOUT = 'about/'
 IMG_SLIDER = 'sliders/'
 
 

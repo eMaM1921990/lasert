@@ -13,3 +13,12 @@ admin.site.register(Careers)
 admin.site.register(Subscribers)
 admin.site.register(Slider)
 admin.site.register(Mailer)
+
+
+class AboutAdminModel(admin.ModelAdmin):
+
+    def queryset(self, request):
+        qs = super(AboutAdminModel, self).queryset(request)
+        return qs[:1]
+
+admin.site.register(About, AboutAdminModel)
