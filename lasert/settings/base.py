@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'lasertApp',
     'captcha',
-    'froala_editor',
 ]
 
 MIDDLEWARE = [
