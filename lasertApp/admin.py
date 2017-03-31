@@ -17,14 +17,10 @@ admin.site.register(Mailer)
 
 class AboutAdminModel(admin.ModelAdmin):
 
+
     def queryset(self, request):
         qs = super(AboutAdminModel, self).queryset(request)
         return qs.first()
 
-    def has_add_permission(self, request):
-        if self.queryset(request):
-            return False
-        else:
-            return True
 
 admin.site.register(About, AboutAdminModel)
