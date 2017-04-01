@@ -1043,10 +1043,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4772d9', end
 .contact-content{
   padding: 40px 0;
 }
-iframe{
-      border: 5px solid #fff!important;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.17);
-}  
+/*iframe{*/
+      /*border: 5px solid #fff!important;*/
+    /*box-shadow: 0 0 4px rgba(0, 0, 0, 0.17);*/
+/*}  */
 .post-wrapper-top h2 {
     border-bottom: 8px solid #506685;
     display: inline-block;
