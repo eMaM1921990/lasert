@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'lasertApp',
     'captcha',
+    'rosetta-grappelli',
+    'rosetta',
 ]
 
 MIDDLEWARE_CLASSES = [

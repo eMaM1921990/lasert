@@ -2,3 +2,4 @@ django-recaptcha
 PILLOW
 django-grappelli
 django-tracking
+django-rosetta-grappelli2
