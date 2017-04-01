@@ -39,3 +39,9 @@ urlpatterns = [
     url(r'^i18n/', include('django.conf.urls.i18n')),
 
 ]
+
+
+if 'rosetta' in settings.INSTALLED_APPS:
+    urlpatterns += [
+        url(r'^trans/', include('rosetta.urls')),
+    ]
