@@ -192,7 +192,7 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 GRAPPELLI_ADMIN_TITLE = 'Lasert Admin Panel'
 
 
-EMAIL_HOST = "mail.lasertt.com"
+EMAIL_HOST = "smtpout.secureserver.net"
 EMAIL_PORT = 25
 EMAIL_USE_SSL = False
 DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
