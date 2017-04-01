@@ -3,3 +3,4 @@ PILLOW
 django-grappelli
 django-tracking
 django-rosetta-grappelli2
+django-rosetta-grappelli
