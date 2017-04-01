@@ -214,7 +214,6 @@ class About(models.Model):
     def __unicode__(self):
         return str(self.pk)+'- Click to edit'
 
-
     class Meta:
         managed = MANAGED
         db_table = 'about'

@@ -1,4 +1,4 @@
 django-recaptcha
 PILLOW
 django-grappelli
-django-froala-editor
+django-tracking
