@@ -196,9 +196,10 @@ EMAIL_PORT = 25
 EMAIL_USE_SSL = False
 DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
 EMAIL_HOST_USER = 'no-replay@lasertt.com'
-EMAIL_HOST_PASSWORD = 'mBa5bgM8}o7~'
+EMAIL_HOST_PASSWORD = 'mBa5bgM8}o7'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
+ZENDISK= 'https://lasertsupport.zendesk.com'
 
 FROALA_EDITOR_PLUGINS = ('align', 'char_counter', 'code_beautifier' ,'code_view', 'colors', 'draggable', 'emoticons',
         'entities', 'file', 'font_family', 'font_size', 'fullscreen', 'image_manager', 'image', 'inline_style',
