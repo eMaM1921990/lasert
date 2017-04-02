@@ -206,6 +206,7 @@ EMAIL_HOST_PASSWORD = 'mUhanad@1975'
 DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
 SERVER_EMAIL = 'no-replay@lasertt.com'
 EMAIL_USE_TLS = False
+EMAIL_PORT = 80
 
 ZENDISK= 'https://lasertsupport.zendesk.com'
 
