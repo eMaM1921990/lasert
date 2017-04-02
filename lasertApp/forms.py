@@ -18,7 +18,7 @@ class ContactUsForm(forms.Form):
         widget=forms.Textarea(attrs={'class': 'form-control','rows':'6'})
     )
 
-    captcha = ReCaptchaField(attrs={'theme' : 'clean'},required=True)
+    # captcha = ReCaptchaField(attrs={'theme' : 'clean'},required=True)
 
     # the new bit we're adding
     def __init__(self, *args, **kwargs):

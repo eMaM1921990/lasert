@@ -193,20 +193,20 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 GRAPPELLI_ADMIN_TITLE = 'Lasert Admin Panel'
 
 
-EMAIL_HOST = "a2nlvphout-v01.shr.prod.iad2.secureserver.net"
+# EMAIL_HOST = "a2nlvphout-v01.shr.prod.iad2.secureserver.net"
 # EMAIL_PORT = 80
 # EMAIL_USE_TLS = False
-DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
+# DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
 # EMAIL_HOST_USER = 'no-replay@lasertt.com'
 # EMAIL_HOST_PASSWORD = 'mUhanad@1975'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'mail.lasertt.com'
-# EMAIL_HOST_USER = 'no-replay@lasertt.com'
-# EMAIL_HOST_PASSWORD = 'mUhanad@1975'
-# DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
+EMAIL_HOST = 'mail.lasertt.com'
+EMAIL_HOST_USER = 'no-replay@lasertt.com'
+EMAIL_HOST_PASSWORD = 'mUhanad@1975'
+DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
 SERVER_EMAIL = 'no-replay@lasertt.com'
-# EMAIL_USE_TLS = False
-# EMAIL_PORT = 80
+EMAIL_PORT = 80
+EMAIL_USE_TLS = False
 
 ZENDISK= 'https://lasertsupport.zendesk.com'
 
