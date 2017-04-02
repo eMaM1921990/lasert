@@ -194,7 +194,7 @@ GRAPPELLI_ADMIN_TITLE = 'Lasert Admin Panel'
 
 
 EMAIL_HOST = "a2nlvphout-v01.shr.prod.iad2.secureserver.net"
-EMAIL_PORT = 25
+EMAIL_PORT = 80
 EMAIL_USE_TLS = False
 DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
 # EMAIL_HOST_USER = 'no-replay@lasertt.com'
