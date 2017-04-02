@@ -195,8 +195,8 @@ GRAPPELLI_ADMIN_TITLE = 'Lasert Admin Panel'
 
 EMAIL_HOST = "a2nlvphout-v01.shr.prod.iad2.secureserver.net"
 # EMAIL_PORT = 465
-# EMAIL_USE_SSL = False
-# DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
+EMAIL_USE_SSL = False
+DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
 # EMAIL_HOST_USER = 'no-replay@lasertt.com'
 # EMAIL_HOST_PASSWORD = 'mUhanad@1975'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
