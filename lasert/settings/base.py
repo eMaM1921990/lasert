@@ -193,12 +193,13 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 GRAPPELLI_ADMIN_TITLE = 'Lasert Admin Panel'
 
 
-EMAIL_HOST = "a2nlvphout-v01.shr.prod.iad2.secureserver.net"
-# EMAIL_PORT = 80
-# EMAIL_USE_TLS = False
+EMAIL_HOST = "n1plcpnl0063.prod.ams1.secureserver.net"
+EMAIL_PORT = 465
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = True
 DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
-# EMAIL_HOST_USER = 'no-replay@lasertt.com'
-# EMAIL_HOST_PASSWORD = 'mUhanad@1975'
+EMAIL_HOST_USER = 'no-replay@lasertt.com'
+EMAIL_HOST_PASSWORD = 'mUhanad@1975'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # EMAIL_HOST = 'mail.godaddy.com'
 # EMAIL_HOST_USER = 'no-replay@lasertt.com'
