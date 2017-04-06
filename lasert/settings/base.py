@@ -200,14 +200,7 @@ DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
 EMAIL_HOST_USER = 'no-replay@lasertt.com'
 EMAIL_HOST_PASSWORD = 'mUhanad@1975'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'mail.godaddy.com'
-# EMAIL_HOST_USER = 'no-replay@lasertt.com'
-# EMAIL_HOST_PASSWORD = 'mUhanad@1975'
-# DEFAULT_FROM_EMAIL = 'no-replay@lasertt.com'
-# SERVER_EMAIL = 'no-replay@lasertt.com'
-# EMAIL_PORT = 465
-# EMAIL_USE_TLS = False
-# EMAIL_USE_SSL = True
+
 
 ZENDISK= 'https://lasertsupport.zendesk.com'
 

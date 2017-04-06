@@ -18,7 +18,7 @@ class ContactUsForm(forms.Form):
         widget=forms.Textarea(attrs={'class': 'form-control','rows':'6'})
     )
 
-    # captcha = ReCaptchaField(attrs={'theme' : 'clean'},required=True)
+    captcha = ReCaptchaField(attrs={'theme' : 'clean'},required=True)
 
     # the new bit we're adding
     def __init__(self, *args, **kwargs):
@@ -29,7 +29,8 @@ class ContactUsForm(forms.Form):
         self.fields['content'].label = _("What do you want to say?")
 
     def send_email(self):
-        mailList = list(Mailer.objects.filter(group=self.cleaned_data['to']).values('email'))
+        mailList = Mailer.objects.filter(group=self.cleaned_data['to'])
+        print mailList
         #
         # Email the profile with the
         # contact information
@@ -41,13 +42,13 @@ class ContactUsForm(forms.Form):
                     }
         content = template.render(context)
         email = EmailMessage(
-            "New contact form submission",
-            content,
-            "Your website" + '',
-            mailList,
+            subject="New contact form submission",
+            body=content,
+            to=[mail.email for mail in mailList],
             headers={'Reply-To': self.cleaned_data['contact_email']}
         )
-        email.send()
+        status = email.send()
+        print status
 
 
 
