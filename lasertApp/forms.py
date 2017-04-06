@@ -9,7 +9,7 @@ from lasertApp.models import Mailer
 
 class ContactUsForm(forms.Form):
     STATUS_CHOICES=[('1',_("New Customer")),('2',_("Sales Service"))]
-    to = forms.ChoiceField(choices = STATUS_CHOICES, label="", initial='', widget=forms.Select(), required=True)
+    to = forms.ChoiceField(choices = STATUS_CHOICES, label="", initial='', widget=forms.Select(attrs={'class' : 'form-control'}), required=True)
     contact_name = forms.CharField(required=True,widget=forms.TextInput(attrs={'class' : 'form-control'}))
     contact_email = forms.EmailField(required=True,widget=forms.TextInput(attrs={'class' : 'form-control'}))
     contact_phone = forms.CharField(required=True,widget=forms.TextInput(attrs={'class' : 'form-control'}))
