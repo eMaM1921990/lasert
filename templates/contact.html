@@ -24,6 +24,15 @@
 					<div class="col-md-6">
 						<p class="description">{% trans 'You can contact us with anything related to our Products. We`ll get in touch with you as soon as possible.' %}<br><br>
 						</p>
+{% if messages %}
+                       <div class="alert alert-sucess">
+                       {% for message in messages %}
+                <strong>{{ message }}</strong>
+                       {% endfor %}
+            </div>
+                    {% endif %}
+
+
 						<form role="form" method="post" action="{% url 'contactUs' %}">
                             {% if form.errors %}
     {% for field in form %}

@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.http.response import HttpResponse
 from django.shortcuts import render
 
@@ -31,6 +32,8 @@ def contact_us(request):
         print 'pos'
         if form.is_valid():
             form.send_email()
+            form = ContactUsForm
+            messages.success(request, _('Thanks for your connect '))
 
     else:
         form = ContactUsForm
