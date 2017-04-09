@@ -4,7 +4,12 @@
         <!-- Indicators -->
         <ol class="carousel-indicators">
             {% for slide in sliders %}
-                <li data-target="#carousel1" data-slide-to="{{ forloop.counter }}" {% if forloop.first %}class="active"{% endif %}></li>
+                {% if forloop.first %}
+                    <li data-target="#carousel1" data-slide-to="{{ forloop.counter0 }}" class="active"></li>
+                {% else %}
+                    <li data-target="#carousel1" data-slide-to="{{ forloop.counter }}" ></li>
+                {% endif %}
+
             {% endfor %}
 
         </ol>
