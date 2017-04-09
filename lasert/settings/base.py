@@ -26,7 +26,7 @@ PROJECT = '/opt/bitnami/apps/django/django_projects/lasert'
 SECRET_KEY = '=8!6=!r)+sg^7k4bem-r05xls_1heyd(ans-9ybd)19zjs3c$j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['107.180.106.251','lasertt.com','127.0.0.1','www.lasertt.com']
 
