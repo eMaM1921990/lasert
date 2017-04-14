@@ -33,28 +33,28 @@ msgstr ""
 
 #: lasertApp/forms.py:27
 msgid "What do you want to say?"
-msgstr ""
+msgstr " ماذا تريد أن تقول؟"
 
 #: templates/about.html:3 templates/base/navLI.html:9 templates/partner.html:3
 msgid "Partners"
-msgstr ""
+msgstr "شركاء العمل"
 
 #: templates/about.html:9
 msgid "About lasertt company"
-msgstr ""
+msgstr "عن تكنولوجيا الليزر التجارية"
 
 #: templates/about.html:12 templates/base/navLI.html:3 templates/career.html:12
 #: templates/contact.html:9
 msgid "Home"
-msgstr ""
+msgstr "الرئيسية"
 
 #: templates/about.html:13 templates/base/navLI.html:15
 msgid "About us"
-msgstr ""
+msgstr "من نحن"
 
 #: templates/about.html:24
 msgid "Laser Technology Trading"
-msgstr ""
+msgstr " تكنولوجيا الليزر التجارية"
 
 #: templates/about.html:25
 #, python-format
@@ -81,13 +81,21 @@ msgid ""
 "                "
 msgstr ""
 
+"\n"
+"                <p>تعتبر تكنولوجيا الليزر التجارية المزودون الرائدون للمنتجات عالية الجودة والتكنولوجيا والتي تتضمن الأنظمة السمعية والبصرية.وأنظمة البث التلفزيوني والمونتاج وأنظمة الدوائر التلفزيونية المغلقة CCTV ، تكنولوجيا الليزر التجارية تأسست منذ 18 سنه كشركة سعودية 100% مع منتجات عالية الجودة وعالية التكنولوجيا مع تزويد الكثير من الحلول المتكاملة الاحترافية التي تتضمن التصميم والتخطيط الهندسي والتوريد والتركيب وكثير من الخدمات الأخرى......ألخ.</p>\n"
+"\n"
+"                <br>\n"
+"\n"
+"                <p>الخدمات التي نقدمها تكنولوجيا الليزر التجارية تدعم بصورة مباشرة بالنهوض بالمملكة العربية السعودية من حيث تزويد الحلول الأحترافية المتكاملة لعدة قطاعات في المملكة على سبيل المثال وليس الحصر، المجالات التعليمية، والحكومية، والقطاع العسكري، والقطاع الصحي والطبي، والقطاع الخاص للشركات المحلية والدولية ذات العلاقة</p>\n"
+"                "
+
 #: templates/about.html:57
 msgid "Infrastructure Sectors as follows:"
-msgstr ""
+msgstr "قطاعات البنية التحتية ذات التكنولوجيا العالية  هي كالتالي:"
 
 #: templates/about.html:67
 msgid "Audio Visual and Digital Systems"
-msgstr ""
+msgstr "الأنظمة الصوتية والمرئية والأنظمة الرقمية"
 
 #: templates/about.html:75
 msgid ""
@@ -103,10 +111,15 @@ msgid ""
 "                                <br>\n"
 "                                "
 msgstr ""
+"\n"
+"                                <p>هذا القسم يقدم الخدمات الصوتية والمرئية والأنظمة الرقمية الأحترافية لكافة القطاعات الحكومية والخاصة مثل الوزارات والجامعات والبنوك والفنادق وتلك الخدمات تتضمن الاستشارات الهندسية والتوريد والتركيب للأنظمة الصوتية والمرئية وتشمل توريد أحدث التقنيات المبتكرة في المجال الصوتي والمرئي التي تستخدم على سبيل المثال وليس الحصر في المسارح والمدرجات وقاعات الاجتماعات وحلول التعليم الإلكتروني عن بعد والتقنية التفاعلية.ولدى تكنولوجيا الليزر التجارية خبرة وعلاقات قوية مع كبريات المصنعين المتخصصين في هذا المجال مثل سوني لأجهزة التصوير والعرض وشركة دي أي إس لأنظمة المناقشة والتصويت وكريسترون لأجهزة التحكم وإكسترون لأنظمة نقل وتوزيع وتحويل إشارات الفيديو. يتوفر لدى الشركة العديد من الكفاءات الهندسية ذو الخبرة العالية لمتابعة أعمال التصميم والإشراف والتنفيذ بالموقع بالتنسيق مع المهندسين المعينين من قبل العميل.</"
+"p>\n"
+"                                <br>\n"
+"                                "
 
 #: templates/about.html:93
 msgid "Professional Broadcast and Production System"
-msgstr ""
+msgstr "أنظمة البث التلفزيوني الأحترافي وأنظمة المونتاج"
 
 #: templates/about.html:101
 msgid ""
@@ -128,11 +141,21 @@ msgid ""
 "                                    <li>Archiving systems</li>\n"
 "                                </ul>\n"
 "                                "
-msgstr ""
+msgstr "\n"
+"                                <p>هذا القسم يخدم السوق المحلي بأحدث التكنولوجيا والتقنية للبث التلفزيوني والمونتاج وتلك الخدمات تتضمن الاستشارات الهندسية والتوريد والتركيب للأنظمة ذات التقنية العالية لأنظمة البث والمونتاج التلفزيوني والتي تضم:</p>\n"
+"                                <br>\n"
+"                                <ul class=\"links-horzintial\">\n"
+"                                    <li>أنظمة أنتاج الفيديو الرقمية والتماثلية</li>\n"
+"                                    <li>الأستديوهات التلفزيونية</li>\n"
+"                                    <li>عربات البث التلفزيوني</li>\n"
+"                                    <li>أنظمة ما قبل الإنتاج</li>\n"
+"                                    <li>انظمة الأرشفة</li>\n"
+"                                </ul>\n"
+"                                "
 
 #: templates/about.html:125
 msgid "CCTV Security System."
-msgstr ""
+msgstr "أنظمة الدوائر التلفزيونية الامنية المغلقة CCTV"
 
 #: templates/about.html:133
 msgid ""
@@ -144,10 +167,16 @@ msgid ""
 "                                .security systems</p>\n"
 "                                "
 msgstr ""
+"\n"
+"                                <p>يوفر قسم أنظمة الدوائر التلفزيونية الامنية المغلقة CCTV  إلى السوق المحلي الأحدث في مجال الأنظمة الأمنية والتي تتراوح بين نظم الأمن المتكاملة كبيرة الحجم  )على أساس التسليم بالمفتاح ( إلى النظم الصغيرة للتطبيقات التجارية.\n"
 
+"نفذ قسم الأنظمة الأمنية للدوائر التلفزيونية بنجاح مشروعات عديدة تتضمن المراقبة المباشرة أو المراقبة عن بعد بأستخدام كاميرات نظام تليفزيونات الدائرة المغلقة."
+
+"ومع الطلب المتزايد على المراقبة عن بعد، يكمل قسم الأنظمة الأمنية المتكاملة للدوائر التلفزيونية منتجاته وخبرته لتنفيذ الحلول بناء على كاميرات IP على شبكات ال LAN/WAN الواسعة.</p>\n"
+"                                "
 #: templates/about.html:167
 msgid "High-technology infrastructure"
-msgstr ""
+msgstr "البنية التحتية ذات التكنولوجيا العالية"
 
 #: templates/about.html:186
 #, python-format
@@ -184,7 +213,7 @@ msgstr ""
 
 #: templates/about.html:213
 msgid "Our Core Values"
-msgstr ""
+msgstr "قيمنا الأساسية"
 
 #: templates/about.html:221
 msgid ""
@@ -205,7 +234,7 @@ msgstr ""
 
 #: templates/about.html:241 templates/base/homePageSlider.html:35
 msgid "Mission"
-msgstr ""
+msgstr "الرسالة"
 
 #: templates/about.html:249
 msgid ""
@@ -231,29 +260,29 @@ msgstr ""
 
 #: templates/about.html:282
 msgid "Download profile"
-msgstr ""
+msgstr "تحميل الملف التعريفي"
 
 #: templates/about.html:283
 msgid "Download now"
-msgstr ""
+msgstr "حمل هنا"
 
 #: templates/base/footer.html:28
 msgid "Arabic"
-msgstr ""
+msgstr "اللغة العربية"
 
 #: templates/base/footer.html:29
 msgid "English"
-msgstr ""
+msgstr "اللغة الأنجلزية"
 
 #: templates/base/footer.html:36
 msgid "Subscribe to Newsletter"
-msgstr ""
+msgstr "الأشتراك بالقائمة البريدية"
 
 #: templates/base/footer.html:38
 msgid ""
 "Join our newsletter and get news in your inbox every week! We hate spam too, "
 "so no worries about this."
-msgstr ""
+msgstr "انضم الى القائمة الأخبارية وأحصل على أخر الأخبار في صندوقك البريدي كل أسبوع! نحن نتجنب البريد الأليكتروني المزعج"
 
 #: templates/base/footer.html:43
 msgid "Your Email..."
@@ -285,11 +314,11 @@ msgstr ""
 
 #: templates/base/homePageInnerFeature.html:7
 msgid "Read more"
-msgstr ""
+msgstr "للقراءة فقط"
 
 #: templates/base/homePageInnerFeature.html:8 templates/base/navLI.html:21
 msgid "Contact us"
-msgstr ""
+msgstr "أتصل بنا"
 
 #: templates/base/homePageProduct.html:9
 msgid ""
@@ -300,7 +329,7 @@ msgstr ""
 
 #: templates/base/homePageSlider.html:15
 msgid "Our awesome services"
-msgstr ""
+msgstr "خدماتنا المميزة"
 
 #: templates/base/homePageSlider.html:16
 msgid "Take a look around and let us know if you have any questions."
@@ -316,11 +345,11 @@ msgstr ""
 
 #: templates/base/homePageSlider.html:36
 msgid "View additional details abour our company"
-msgstr ""
+msgstr "المزيد من المعلومات عنا"
 
 #: templates/base/homePageSlider.html:44
 msgid "Application"
-msgstr ""
+msgstr "التطبيقات"
 
 #: templates/base/homePageSlider.html:45
 msgid "See how the application process works"
@@ -328,40 +357,40 @@ msgstr ""
 
 #: templates/base/jobCard.html:8
 msgid "Years"
-msgstr ""
+msgstr "السنوات"
 
 #: templates/base/jobCard.html:16
 msgid "Job description"
-msgstr ""
+msgstr "الوصف الوظيفي"
 
 #: templates/base/jobCard.html:20
 msgid "Job skills"
-msgstr ""
+msgstr "مهارات العمل"
 
 #: templates/base/jobCard.html:26
 msgid "Apply on :"
-msgstr ""
+msgstr "للتقديم هنا"
 
 #: templates/base/navLI.html:6 templates/solutions.html:12
 msgid "Services"
-msgstr ""
+msgstr "خدماتنا"
 
 #: templates/base/navLI.html:12 templates/career.html:3 templates/client.html:3
 #: templates/solutions.html:3
 msgid "Clients"
-msgstr ""
+msgstr "عملائنا"
 
 #: templates/base/navLI.html:18 templates/career.html:13
 msgid "Careers"
-msgstr ""
+msgstr "التوظيف"
 
 #: templates/base/visitors.html:15
 msgid "Visit Today"
-msgstr ""
+msgstr "زيارات اليوم"
 
 #: templates/base/visitors.html:27
 msgid "Visitors"
-msgstr ""
+msgstr "عدد الزوار"
 
 #: templates/base/visitors.html:39
 msgid "Online"
@@ -369,7 +398,7 @@ msgstr ""
 
 #: templates/career.html:25 templates/solutions.html:80
 msgid "Installation of high end solution"
-msgstr ""
+msgstr "التركيب على الأنظمة ذات التقنية العالية"
 
 #: templates/career.html:26
 msgid ""
@@ -397,37 +426,37 @@ msgstr ""
 
 #: templates/client.html:8 templates/partner.html:8
 msgid "Our Business Strategic Distributor & Partners"
-msgstr ""
+msgstr "الشركاء الأستراتيجيين والموزعين."
 
 #: templates/client.html:12 templates/partner.html:12
 msgid "partners"
-msgstr ""
+msgstr "شركاء العمل"
 
 #: templates/contact.html:7
 msgid "Keep touch with lassertt Company"
-msgstr ""
+msgstr "أبقى عل تواصل مع تكنولوحيا الليزر التجارية"
 
 #: templates/contact.html:10
 msgid "contact us"
-msgstr ""
+msgstr "أتصل بنا"
 
 #: templates/contact.html:23
 msgid ""
 "You can contact us with anything related to our Products. We`ll get in touch "
 "with you as soon as possible."
-msgstr ""
+msgstr "يمكنك التواصل معنا بخصوص منتجاتنا في أي وقت. وسوف نعاود الأتصال بك في أقرب فرصة ممكنة"
 
 #: templates/contact.html:42
 msgid "How we can help you ? please choose section"
-msgstr ""
+msgstr "كيف يمكننا مساعدتك؟ الرجاء أختيار القسم."
 
 #: templates/contact.html:74
 msgid "Contact Us"
-msgstr ""
+msgstr "أتصل بنا"
 
 #: templates/solutions.html:8
 msgid "Services & solutions"
-msgstr ""
+msgstr "خدماتنا والحلول"
 
 #: templates/solutions.html:81
 msgid ""
@@ -440,4 +469,4 @@ msgstr ""
 msgid ""
 "Broadcast and Audio Visual activities range from consultancy,  designing,  "
 "engineering,  supply and installation of high end solution such as "
-msgstr ""
+msgstr "يقوم النشاط التجاري لقسم الأجهزة السمعية والمرئية وأجهزة البث التلفزيوني على خدمة السوق المحلي من خلال تقديم الخدمات الأستشارية والتصميم والهندسة والتوريد والتركيب والتدريب على الأنظمة ذات التقنية العالية والتي تضم"
