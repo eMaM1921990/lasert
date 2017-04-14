@@ -211,6 +211,19 @@ class About(models.Model):
     section_three_description_html = models.TextField()
     section_three_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
 
+    section_one_title_arabic = models.CharField(max_length=150)
+    section_one_description = models.TextField()
+    section_one_first_image = models.ImageField(upload_to=settings.IMG_ABOUT)
+    section_one_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
+
+    section_two_title = models.CharField(max_length=150)
+    section_two_description_html = models.TextField()
+    section_two_first_image = models.ImageField(upload_to=settings.IMG_ABOUT)
+    section_two_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
+
+    section_three_description_html = models.TextField()
+    section_three_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
+
     def __unicode__(self):
         return str(self.pk)+'- Click to edit'
 
