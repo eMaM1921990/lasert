@@ -200,29 +200,56 @@ class Slider(models.Model):
 class About(models.Model):
     section_one_title  = models.CharField(max_length=150)
     section_one_description = models.TextField()
+    section_one_title_arabic = models.CharField(max_length=150)
+    section_one_description_arabic = models.TextField()
     section_one_first_image = models.ImageField(upload_to=settings.IMG_ABOUT)
     section_one_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
 
     section_two_title  = models.CharField(max_length=150)
     section_two_description_html = models.TextField()
+    section_two_title_arabic = models.CharField(max_length=150)
+    section_two_description_html_arabic = models.TextField()
     section_two_first_image = models.ImageField(upload_to=settings.IMG_ABOUT)
     section_two_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
 
     section_three_description_html = models.TextField()
+    section_three_description_html_arabic = models.TextField()
     section_three_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
 
-    section_one_title_arabic = models.CharField(max_length=150)
-    section_one_description = models.TextField()
-    section_one_first_image = models.ImageField(upload_to=settings.IMG_ABOUT)
-    section_one_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
+    @property
+    def getOneTitle(self):
+        print django.utils.translation.get_language()
+        if django.utils.translation.get_language() == 'en':
+            return self.section_one_title
+        return self.section_one_title_arabic
 
-    section_two_title = models.CharField(max_length=150)
-    section_two_description_html = models.TextField()
-    section_two_first_image = models.ImageField(upload_to=settings.IMG_ABOUT)
-    section_two_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
+    @property
+    def getOneDesc(self):
+        print django.utils.translation.get_language()
+        if django.utils.translation.get_language() == 'en':
+            return self.section_one_description
+        return self.section_one_description_arabic
 
-    section_three_description_html = models.TextField()
-    section_three_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
+    @property
+    def getTwoTitle(self):
+        print django.utils.translation.get_language()
+        if django.utils.translation.get_language() == 'en':
+            return self.section_two_title
+        return self.section_two_title_arabic
+
+    @property
+    def getTwoDesc(self):
+        print django.utils.translation.get_language()
+        if django.utils.translation.get_language() == 'en':
+            return self.section_two_description_html
+        return self.section_two_description_html_arabic
+
+    @property
+    def getThreeDesc(self):
+        print django.utils.translation.get_language()
+        if django.utils.translation.get_language() == 'en':
+            return self.section_three_description_html
+        return self.section_three_description_html_arabic
 
     def __unicode__(self):
         return str(self.pk)+'- Click to edit'
