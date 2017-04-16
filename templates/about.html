@@ -21,8 +21,8 @@
         <div class="container">
 
             <div class="col-md-6 pull-right">
-                <h2>{{ about.section_one_title }}</h2>
-                <p>{{ about.section_one_description |safe}}</p>
+                <h2>{{ about.getOneTitle }}</h2>
+                <p>{{ about.getOneDesc |safe}}</p>
 
                 <br>
 
@@ -44,10 +44,10 @@
 
             <div class="col-md-6 pull-left">
 
-                <h2>{{ about.section_two_title }}</h2>
+                <h2>{{ about.getTwoTitle }}</h2>
 
 
-                {{ about.section_two_description_html|safe }}
+                {{ about.getTwoDesc|safe }}
 
                 <br>
 
@@ -74,7 +74,7 @@
                 </h3>
 
 
-               {{ about.section_three_description_html|safe }}
+               {{ about.getThreeDesc|safe }}
             </div>
 
             <div class="col-md-6 hidden-sm hidden-xs">
