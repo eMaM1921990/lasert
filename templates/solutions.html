@@ -90,7 +90,7 @@
             <div class="menu col-md-2 col-md-offset-1">
 
                 <div class="filterMenu">
-                   <button class="btn btn-danger" data-filter="*">All</button>
+{#                   <button class="btn btn-danger" data-filter="*">All</button>#}
                   {% for category in categories %}
                          <button class="btn btn-default" data-filter=".{{ category.id }}">{{ category.getItemName }}</button>
                   {% endfor %}
