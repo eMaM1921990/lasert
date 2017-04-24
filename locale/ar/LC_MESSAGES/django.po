@@ -21,7 +21,7 @@ msgstr ""
 
 #: lasertApp/forms.py:11 lasertApp/models.py:125
 msgid "New Customer"
-msgstr ""
+msgstr "عميل جديد"
 
 #: lasertApp/forms.py:11 lasertApp/models.py:125
 msgid "Sales Service"
@@ -29,15 +29,15 @@ msgstr "خدماتنا"
 
 #: lasertApp/forms.py:26
 msgid "Your name"
-msgstr ""
+msgstr "الأسم"
 
 #: lasertApp/forms.py:27
 msgid "Your email"
-msgstr ""
+msgstr "البريد الإلكترونى"
 
 #: lasertApp/forms.py:28
 msgid "Your phone"
-msgstr ""
+msgstr "الجوال"
 
 #: lasertApp/forms.py:29
 msgid "What do you want to say?"
@@ -45,7 +45,7 @@ msgstr " ماذا تريد أن تقول؟"
 
 #: lasertApp/views.py:37
 msgid "Thanks for your connect "
-msgstr ""
+msgstr "شكرا لتواصلك معنا "
 
 #: templates/about.html:3
 msgid "About Us"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: templates/base/footer.html:42
 msgid "Your Email..."
-msgstr ""
+msgstr "البريد الإلكترونى ٫٫٫٫"
 
 #: templates/base/footer.html:80
 msgid ""
@@ -111,6 +111,10 @@ msgid ""
 "h2>\n"
 "                "
 msgstr ""
+"\n"
+"                    <h2>المميزين <span class=\"color_red\">شركاء العمل</span></"
+"h2>\n"
+"                "
 
 #: templates/base/homePageInnerFeature.html:5
 msgid "Amazang Services"
@@ -130,6 +134,10 @@ msgid ""
 "                    <h2> <span class=\"color_red\">Solutions</span></h2>\n"
 "                "
 msgstr ""
+"\n"
+"                    <h2> <span class=\"color_red\">الحلول</span></h2>\n"
+"                "
+
 
 #: templates/base/homePageProduct.html:15
 msgid ""
@@ -184,11 +192,11 @@ msgstr "زيارات اليوم"
 
 #: templates/base/visitors.html:27
 msgid "Visitors"
-msgstr ""
+msgstr "الزوار"
 
 #: templates/base/visitors.html:39
 msgid "Online"
-msgstr ""
+msgstr "المتواجدون الاّن"
 
 #: templates/career.html:25
 msgid " Future job opportunities"
@@ -200,6 +208,9 @@ msgid ""
 "                <h2>Our <span class=\"color_red\">jobs</span></h2>\n"
 "                 "
 msgstr ""
+"\n"
+"                <h2> <span class=\"color_red\">الوظائف</span></h2>\n"
+"                 "
 
 #: templates/career.html:30
 msgid ""
@@ -216,10 +227,18 @@ msgid ""
 "a> and we will consider you for any future job opportunities.</p>\n"
 "        "
 msgstr ""
+"\n"
+"            <p class=\"centered-text col-md-8 col-md-offset-2\">\n"
+"\n"
+"تكنولوجبا الليزر التجارية ترحب بكم في قسم التوظيف. نحن نقدم للأشخاص ذوي الموهبة والشغف والنزاهة أفضل الفرص الوظيفية مع العديد من المميزات المتاحة لتطوير الأنتاجية. "
+"أذا وجدت أن الفرص المتاحة بالأسفل مناسبة لك او إذا لم يكن هناك فرص عمل متاحة حالياً ولكنك تشعر أن لديك ماتقدمه لنا، يمكنك التواصل معنا على البريد الإلكتروني"
+" <a href=\"mailto:ltt-careers@lasertt.com\">ltt-careers@lasertt.com</"
+"a> </p>\n"
+"        "
 
 #: templates/client.html:8
 msgid "List of our Clients"
-msgstr ""
+msgstr "عملائنا"
 
 #: templates/contact.html:3 templates/contact.html:82
 msgid "Contact Us"
@@ -261,7 +280,7 @@ msgstr "خدماتنا والحلول"
 
 #: templates/solutions.html:8
 msgid "Services & solutions"
-msgstr ""
+msgstr "خدماتنا والحلول"
 
 #: templates/solutions.html:81
 msgid ""
