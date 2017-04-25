@@ -170,8 +170,8 @@ class Slider(models.Model):
     img = models.ImageField(upload_to=settings.IMG_SLIDER)
     title_ar = models.CharField(max_length=150)
     title_en = models.CharField(max_length=150)
-    description_ar = models.CharField(max_length=150)
-    description_en = models.CharField(max_length=150)
+    description_ar = models.TextField()
+    description_en = models.TextField()
     active = models.BooleanField(default=True)
 
     def __unicode__(self):

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-24 18:19+0000\n"
+"POT-Creation-Date: 2017-04-24 19:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,18 @@ msgstr "تحميل الملف التعريفي"
 msgid "Download now"
 msgstr "حمل هنا"
 
+#: templates/base/footer.html:10
+msgid "lasert technologhy"
+msgstr ""
+
+#: templates/base/footer.html:11
+msgid ""
+"is an organization providing solutions for Audio Visual and Digital Systems "
+"in additional to Broadcast systems, Production Systems and CCTV systems, all "
+"these\n"
+"                      "
+msgstr ""
+
 #: templates/base/footer.html:27
 msgid "Arabic"
 msgstr "اللغة العربية"
@@ -112,13 +124,20 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                    <h2>المميزين <span class=\"color_red\">شركاء العمل</span></"
-"h2>\n"
+"                    <h2>المميزين <span class=\"color_red\">شركاء العمل</"
+"span></h2>\n"
 "                "
 
 #: templates/base/homePageInnerFeature.html:5
 msgid "Amazang Services"
 msgstr "خدماتنا"
+
+#: templates/base/homePageInnerFeature.html:6
+msgid ""
+"Our services directly support the advancement of KSA to provide\n"
+"professional solution for Educational, Government, Military, Health\n"
+"care and Private Sector (National and International)"
+msgstr ""
 
 #: templates/base/homePageInnerFeature.html:9
 msgid "Read more"
@@ -137,7 +156,6 @@ msgstr ""
 "\n"
 "                    <h2> <span class=\"color_red\">الحلول</span></h2>\n"
 "                "
-
 
 #: templates/base/homePageProduct.html:15
 msgid ""
@@ -230,10 +248,12 @@ msgstr ""
 "\n"
 "            <p class=\"centered-text col-md-8 col-md-offset-2\">\n"
 "\n"
-"تكنولوجبا الليزر التجارية ترحب بكم في قسم التوظيف. نحن نقدم للأشخاص ذوي الموهبة والشغف والنزاهة أفضل الفرص الوظيفية مع العديد من المميزات المتاحة لتطوير الأنتاجية. "
-"أذا وجدت أن الفرص المتاحة بالأسفل مناسبة لك او إذا لم يكن هناك فرص عمل متاحة حالياً ولكنك تشعر أن لديك ماتقدمه لنا، يمكنك التواصل معنا على البريد الإلكتروني"
-" <a href=\"mailto:ltt-careers@lasertt.com\">ltt-careers@lasertt.com</"
-"a> </p>\n"
+"تكنولوجبا الليزر التجارية ترحب بكم في قسم التوظيف. نحن نقدم للأشخاص ذوي "
+"الموهبة والشغف والنزاهة أفضل الفرص الوظيفية مع العديد من المميزات المتاحة "
+"لتطوير الأنتاجية. أذا وجدت أن الفرص المتاحة بالأسفل مناسبة لك او إذا لم يكن "
+"هناك فرص عمل متاحة حالياً ولكنك تشعر أن لديك ماتقدمه لنا، يمكنك التواصل معنا "
+"على البريد الإلكتروني <a href=\"mailto:ltt-careers@lasertt.com\">ltt-"
+"careers@lasertt.com</a> </p>\n"
 "        "
 
 #: templates/client.html:8
@@ -260,7 +280,6 @@ msgstr ""
 "يمكنك التواصل معنا بخصوص منتجاتنا في أي وقت. وسوف نعاود الأتصال بك في أقرب "
 "فرصة ممكنة"
 
-
 #: templates/contact.html:53
 msgid "How we can help you ? please choose section"
 msgstr "كيف يمكننا مساعدتك؟ الرجاء أختيار القسم."
@@ -272,7 +291,6 @@ msgstr "الشركاء الأستراتيجيين والموزعين."
 #: templates/partner.html:12
 msgid "partners"
 msgstr "شركاء العمل"
-
 
 #: templates/solutions.html:3
 msgid "Solutions"
@@ -298,9 +316,3 @@ msgstr ""
 "يقوم النشاط التجاري لقسم الأجهزة السمعية والمرئية وأجهزة البث التلفزيوني على "
 "خدمة السوق المحلي من خلال تقديم الخدمات الأستشارية والتصميم والهندسة "
 "والتوريد والتركيب والتدريب على الأنظمة ذات التقنية العالية والتي تضم"
-
-msgid ""
-"Our services directly support the advancement of KSA to provide"
-"professional solution for Educational, Government, Military, Health"
-"care and Private Sector (National and International)."
-msgstr ""
