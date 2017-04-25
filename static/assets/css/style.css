@@ -1506,8 +1506,8 @@ border-top: 1px solid #eaedee;
     border-color: #cecdcd!important;
 }
 .navbar-default .navbar-brand img{
-      width: 60px;
-    margin-left: 33px;
+    width: 50px;
+    margin-left: 11px;
 }
 .feature-lasert-large{
   text-align: center;
@@ -1524,7 +1524,7 @@ border-top: 1px solid #eaedee;
   width: 100%;
 }
 .navbar-default .navbar-brand {
-    width: 337px;
+       width: 323px;
 }
 }
 
