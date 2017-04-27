@@ -83,6 +83,8 @@ msgid ""
 "these\n"
 "                      "
 msgstr ""
+"هي منظمة متكاملة تسعى الى تقديم احدث الحلول المتطورة التي تواكب النمو السريع لتكنولوجيا الأنظمة السمعية والمرئية والأنظمة الرقمية ذات التقنية العالية"
+ "بالأضافة ألى أنظمة البث التلفزيوني وأنظمةالمونتاج والأنظمة الأمنية للدوائر التلفزيونية المغلقة"
 
 #: templates/base/footer.html:27
 msgid "Arabic"
@@ -114,7 +116,7 @@ msgid ""
 "                    Copyright © <script>document.write(new Date()."
 "getFullYear())</script> lasert All Rights Reserved.\n"
 "                "
-msgstr ""
+msgstr "جميع الحقوق محفوظة لشركة تكنولوجيا الليزر التجارية"
 
 #: templates/base/homePageClients.html:7
 msgid ""
@@ -138,6 +140,10 @@ msgid ""
 "professional solution for Educational, Government, Military, Health\n"
 "care and Private Sector (National and International)"
 msgstr ""
+"الخدمات التي تقدمها تكنولوجباالليزر التجارية تدعم بصورة مباشرة بالنهوض بالمملكة العربيةالسعودية من حيث تزويد "
+ "  الحلول الأحترافية المتكاملة لعدة قطاعات في المملكة على سبيل المثال وليس الحصر،المجالات التعليمية، والحكومية،والقطاع العسكري،والقطاع الصحي"
+"  والقطاع الخاص للشركات المحلية والدولية"
+
 
 #: templates/base/homePageInnerFeature.html:9
 msgid "Read more"
@@ -202,7 +208,7 @@ msgstr "التوظيف"
 
 #: templates/base/navLI.html:24
 msgid "Staff Email Access"
-msgstr ""
+msgstr " دخول الموظفين"
 
 #: templates/base/visitors.html:15
 msgid "Visit Today"
@@ -218,7 +224,8 @@ msgstr "المتواجدون الاّن"
 
 #: templates/career.html:25
 msgid " Future job opportunities"
-msgstr ""
+msgstr "فرص العمل المستقبلية"
+
 
 #: templates/career.html:26
 msgid ""
