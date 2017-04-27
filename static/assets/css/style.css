@@ -263,7 +263,7 @@ if it's not present, don't show loader */
   z-index: 100;
 }
 .navbar-default .navbar-brand{
-  width: 367px;
+  width: 295px;
   padding-left: 0;
   margin-top: 0;
   color: #fff;
@@ -1549,4 +1549,26 @@ border-top: 1px solid #eaedee;
        width: 295px;
 }
 }
+.shrink .btn-language span i,.navbar-page .btn-language span i{
+	color: #333;
+    margin-top: 4px;
+}
+.footer .btn-language span i{
+	color: #333;
+    margin-top: 4px;
+}
+.footer .btn-language span i{
+	color: #333;
+    margin-top: 4px;
+}
+.carousel-caption p ,.product-page p{
+    font-size: 20px;
+    text-align: center;
+}
+.product-page p {
+    text-align: center;
+}
 
+.centered-text p{
+    text-align: center;
+}
