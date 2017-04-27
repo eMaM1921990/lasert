@@ -8,6 +8,25 @@ p{
 .navbar-default{
   margin-bottom: 0;
 }
+.btn-language{
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 5px;
+    background: rgba(0,0,0,0)!important;
+    box-shadow: none!important;
+    padding-left: 0;
+    text-align: center;
+
+}
+.btn-language span {
+    margin-right: 5px;
+    color: #333;
+}
+.btn-language span i{
+    margin-top: 10px;
+    font-size: 29px!important;
+    color: #fff;
+}
 .headerstrip {
   width: 100%;
   display: block;
