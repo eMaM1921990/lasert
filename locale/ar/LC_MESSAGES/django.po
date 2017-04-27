@@ -116,7 +116,8 @@ msgid ""
 "                    Copyright © <script>document.write(new Date()."
 "getFullYear())</script> lasert All Rights Reserved.\n"
 "                "
-msgstr "جميع الحقوق محفوظة لشركة تكنولوجيا الليزر التجارية"
+msgstr""
+"جميع الحقوق محفوظة لشركة تكنولوجيا الليزر التجارية"
 
 #: templates/base/homePageClients.html:7
 msgid ""
