@@ -1,14 +1,13 @@
-
 body {
   font-family: "JannaLT-Regular";
   background: #dce3eb;
   font-size: 16px; }
 @font-face {
   font-family: "JannaLT-Regular";
-  src: url("../fonts/jannal/jannalTRegular.eot?#iefix") 
-  format("embedded-opentype"), url("../fonts/jannal/jannalTRegular.woff") 
-  format("woff"), url("../fonts/jannal/jannalTRegular.ttf") 
-  format("truetype"), url("../fonts/jannal/jannalTRegular.svg#JannaLT-Regular") format("svg"); 
+  src: url("../fonts/jannal/jannalTRegular.eot?#iefix")
+  format("embedded-opentype"), url("../fonts/jannal/jannalTRegular.woff")
+  format("woff"), url("../fonts/jannal/jannalTRegular.ttf")
+  format("truetype"), url("../fonts/jannal/jannalTRegular.svg#JannaLT-Regular") format("svg");
 }
 
 @font-face {
@@ -55,8 +54,8 @@ h1,h2,h3,h4,h5,a,label,.link-sidebar{
   font-family: "JannaLT-Regular";
 }
 h2 span{
-   font-family: "JannaLT-Regular"; 
-} 
+   font-family: "JannaLT-Regular";
+}
 
 h1{
     font-size: 35px;
@@ -97,8 +96,8 @@ h1{
     margin-right: 0px;
     margin-left: 10px;
 }
-.form-group.label-static label.control-label, 
-.form-group.label-floating.is-focused label.control-label, 
+.form-group.label-static label.control-label,
+.form-group.label-floating.is-focused label.control-label,
 .form-group.label-floating:not(.is-empty) label.control-label {
 
   left: auto;
@@ -120,7 +119,7 @@ h1{
    right: auto;
    left: -6px;
 
-} 
+}
 .partner .bx-wrapper .bx-next{
     right: auto;
     left: 0px;
@@ -141,7 +140,7 @@ h1{
     float: right;
 }
 .footer h5{
- font-family: "JannaLT-Regular";    
+ font-family: "JannaLT-Regular";
 }
 .footer hr{
     width: 100%;
@@ -205,6 +204,10 @@ h1{
     }
 }
 
+.is-right {
+    text-align: right;}
+.is-right {
+    text-align: left;}
 
 /*---- bootstrap ----*/
 .dropdown-menu{
