@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 08:58+0000\n"
+"POT-Creation-Date: 2017-04-28 09:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,10 +90,17 @@ msgid ""
 "                        </p>\n"
 "                        "
 msgstr ""
-"هي منظمة متكاملة تسعى الى تقديم احدث الحلول المتطورة التي تواكب النمو السريع "
+"هي منظمة متكاملة تسعى الى تقديم احدث الحلول المتطورة التي تواكب النمو السريع <p>"
 "لتكنولوجيا الأنظمة السمعية والمرئية والأنظمة الرقمية ذات التقنية "
 "العاليةبالأضافة ألى أنظمة البث التلفزيوني وأنظمةالمونتاج والأنظمة الأمنية "
 "للدوائر التلفزيونية المغلقة"
+" </p>\n"
+
+#: templates/base/footer.html:17
+#, fuzzy
+#| msgid "About Us"
+msgid "About"
+msgstr "من نحن"
 
 #: templates/base/footer.html:28 templates/base/navLI.html:33
 msgid "عربي"
