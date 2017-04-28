@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 09:03+0000\n"
+"POT-Creation-Date: 2017-04-28 09:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,12 +77,6 @@ msgid "lasert technologhy"
 msgstr "تكنولوجيا الليزر"
 
 #: templates/base/footer.html:11
-#, fuzzy
-#| msgid ""
-#| "is an organization providing solutions for Audio Visual and Digital "
-#| "Systems in additional to Broadcast systems, Production Systems and CCTV "
-#| "systems, all these\n"
-#| "                      "
 msgid ""
 "<p>is an organization providing solutions for Audio Visual and Digital "
 "Systems in additional to Broadcast systems,Production Systems and CCTV "
@@ -95,10 +89,7 @@ msgstr ""
 "العاليةبالأضافة ألى أنظمة البث التلفزيوني وأنظمةالمونتاج والأنظمة الأمنية "
 "للدوائر التلفزيونية المغلقة"
 " </p>\n"
-
 #: templates/base/footer.html:17
-#, fuzzy
-#| msgid "About Us"
 msgid "About"
 msgstr "من نحن"
 
@@ -303,7 +294,6 @@ msgid ""
 msgstr ""
 "يمكنك التواصل معنا بخصوص منتجاتنا في أي وقت. وسوف نعاود الأتصال بك في أقرب "
 "فرصة ممكنة"
-
 #: templates/contact.html:53
 msgid "How we can help you ? please choose section"
 msgstr "كيف يمكننا مساعدتك؟ الرجاء أختيار القسم."
@@ -340,6 +330,3 @@ msgstr ""
 "يقوم النشاط التجاري لقسم الأجهزة السمعية والمرئية وأجهزة البث التلفزيوني على "
 "خدمة السوق المحلي من خلال تقديم الخدمات الأستشارية والتصميم والهندسة "
 "والتوريد والتركيب والتدريب على الأنظمة ذات التقنية العالية والتي تضم"
-
-#~ msgid "Arabic"
-#~ msgstr "اللغة العربية"
