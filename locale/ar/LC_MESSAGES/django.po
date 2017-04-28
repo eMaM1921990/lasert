@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 08:56+0000\n"
+"POT-Creation-Date: 2017-04-28 08:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,28 +84,30 @@ msgstr "تكنولوجيا الليزر"
 #| "systems, all these\n"
 #| "                      "
 msgid ""
-"is an organization providing solutions for Audio Visual and Digital Systems "
-"in additional to Broadcast systems,Production Systems and CCTV systems, all "
-"these"
+"<p>is an organization providing solutions for Audio Visual and Digital "
+"Systems in additional to Broadcast systems,Production Systems and CCTV "
+"systems, all these\n"
+"                        </p>\n"
+"                        "
 msgstr ""
 "هي منظمة متكاملة تسعى الى تقديم احدث الحلول المتطورة التي تواكب النمو السريع "
 "لتكنولوجيا الأنظمة السمعية والمرئية والأنظمة الرقمية ذات التقنية "
 "العاليةبالأضافة ألى أنظمة البث التلفزيوني وأنظمةالمونتاج والأنظمة الأمنية "
 "للدوائر التلفزيونية المغلقة"
 
-#: templates/base/footer.html:27 templates/base/navLI.html:33
+#: templates/base/footer.html:28 templates/base/navLI.html:33
 msgid "عربي"
 msgstr ""
 
-#: templates/base/footer.html:28 templates/base/navLI.html:34
+#: templates/base/footer.html:29 templates/base/navLI.html:34
 msgid "English"
 msgstr "اللغة الأنجلزية"
 
-#: templates/base/footer.html:35
+#: templates/base/footer.html:36
 msgid "Subscribe to Newsletter"
 msgstr "الأشتراك بالقائمة البريدية"
 
-#: templates/base/footer.html:37
+#: templates/base/footer.html:38
 msgid ""
 "Join our newsletter and get news in your inbox every week! We hate spam too, "
 "so no worries about this."
@@ -113,11 +115,11 @@ msgstr ""
 "انضم الى القائمة الأخبارية وأحصل على أخر الأخبار في صندوقك البريدي كل أسبوع! "
 "نحن نتجنب البريد الأليكتروني المزعج"
 
-#: templates/base/footer.html:42
+#: templates/base/footer.html:43
 msgid "Your Email..."
 msgstr "البريد الإلكترونى ٫٫٫٫"
 
-#: templates/base/footer.html:76
+#: templates/base/footer.html:77
 msgid ""
 "\n"
 "                    Copyright © <script>document.write(new Date()."
