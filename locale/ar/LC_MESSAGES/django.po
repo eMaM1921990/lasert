@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 09:14+0000\n"
+"POT-Creation-Date: 2017-04-29 14:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,9 +84,10 @@ msgid ""
 "                        </p>\n"
 "                        "
 msgstr ""
-"<p>هي منظمة متكاملة تسعى الى تقديم احدث الحلول المتطورة التي تواكب النمو السريع "
-"لتكنولوجيا الأنظمة السمعية والمرئية والأنظمة الرقمية ذات التقنية العاليةبالأضافة ألى أنظمة البث التلفزيوني وأنظمةالمونتاج والأنظمة الأمنية"
-"nللدوائر التلفزيونية المغلقة\n"
+"<p>هي منظمة متكاملة تسعى الى تقديم احدث الحلول المتطورة التي تواكب النمو "
+"السريع لتكنولوجيا الأنظمة السمعية والمرئية والأنظمة الرقمية ذات التقنية "
+"العاليةبالأضافة ألى أنظمة البث التلفزيوني وأنظمةالمونتاج والأنظمة "
+"الأمنية للدوائر التلفزيونية المغلقة\n"
 "                        </p>\n"
 "                        "
 
@@ -295,9 +296,37 @@ msgid ""
 msgstr ""
 "يمكنك التواصل معنا بخصوص منتجاتنا في أي وقت. وسوف نعاود الأتصال بك في أقرب "
 "فرصة ممكنة"
+
 #: templates/contact.html:53
 msgid "How we can help you ? please choose section"
 msgstr "كيف يمكننا مساعدتك؟ الرجاء أختيار القسم."
+
+#: templates/contact.html:96
+msgid "Find us at the office"
+msgstr "عنواننا"
+
+#: templates/contact.html:107
+msgid "Give us a ring"
+msgstr "اتصل بنا"
+
+#: templates/contact.html:108
+msgid ""
+"\n"
+"                                Telephone : +966-13-8972326 (New telephone "
+"Numbers will be published soon)<br>\n"
+"                                Fax : +966-13-8972326<br>\n"
+"                                "
+msgstr ""
+"\n"
+"                                الجوال : +966-13-8972326 (جوال جديد سيتم نشره قريبا)<br>\n"
+"                                الفاكس : +966-13-8972326<br>\n"
+"                                "
+
+#: templates/contact.html:120
+#, fuzzy
+#| msgid "Your email"
+msgid "email"
+msgstr "البريد الإلكترونى"
 
 #: templates/partner.html:8
 msgid "Our Business Strategic Distributor & Partners"

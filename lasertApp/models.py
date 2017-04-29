@@ -86,7 +86,7 @@ class Serivces(models.Model):
     def getItemDesc(self):
         if django.utils.translation.get_language() == 'en':
             return self.description_en
-        return self.service_name_ar
+        return self.description_ar
 
     class Meta:
         managed = MANAGED
