@@ -204,10 +204,13 @@ h1{
     }
 }
 
-.is-right {
+.is-right .is-content{
     text-align: right;}
-.is-right {
+.is-left .is-content ,.is-left .is-text {
     text-align: left;}
+.shrink .navbar-nav>li>a {
+    line-height: 26px;
+}
 
 /*---- bootstrap ----*/
 .dropdown-menu{
@@ -579,7 +582,7 @@ h1{
 
     .col-md-pull-3 {
         right: auto;
-        left: 25%;    
+        left: 25%;
     }
 
     .col-md-pull-2 {
