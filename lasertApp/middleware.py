@@ -44,7 +44,7 @@ class OnlineNowMiddleware(object):
 
         # Set the new online list
         cache.set('online_now', online)
-        cache.set('visitor', visitors)
+        cache.set('visitors', visitors)
         cache.set(current_date, today_visit)
         # Add the number of online users to request
         request.__class__.online_now = len(online)

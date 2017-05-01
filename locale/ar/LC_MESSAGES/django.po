@@ -279,7 +279,7 @@ msgstr "عملائنا"
 
 #: templates/contact.html:3 templates/contact.html:82
 msgid "Contact Us"
-msgstr "أتصل بنا"
+msgstr "إرسل رسالة"
 
 #: templates/contact.html:9
 msgid "Keep touch with lassertt Company"

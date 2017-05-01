@@ -18,9 +18,9 @@ def index(request):
     context['services'] = Serivces.objects.all()[:4]
     context['recommends'] = Recommends.objects.all()[:4]
     context['solutions'] = Solutions.objects.filter(show_in_home_page=True)[:6]
-    context['online'] = get_current_users()
-    context['today'] = get_today_users()
-    context['all'] = get_all_users()
+    # context['online'] = get_current_users()
+    # context['today'] = get_today_users()
+    # context['all'] = get_all_users()
     context['sliders'] = Slider.objects.all()
     return render(request, template,context=context)
 
