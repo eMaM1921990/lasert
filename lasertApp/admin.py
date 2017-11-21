@@ -17,8 +17,6 @@ admin.site.register(Mailer)
 
 
 class AboutAdminModel(admin.ModelAdmin):
-
-
     def queryset(self, request):
         qs = super(AboutAdminModel, self).queryset(request)
         return qs.first()
@@ -26,8 +24,21 @@ class AboutAdminModel(admin.ModelAdmin):
 
 admin.site.register(About, AboutAdminModel)
 
+
 class SessionAdmin(admin.ModelAdmin):
     def _session_data(self, obj):
         return obj.get_decoded()
+
     list_display = ['session_key', '_session_data', 'expire_date']
+
+
 admin.site.register(Session, SessionAdmin)
+
+
+class ContactUsAdmin(admin.ModelAdmin):
+    def queryset(self, request):
+        qs = super(ContactUsAdmin, self).queryset(request)
+        return qs.first()
+
+
+admin.site.register(ContactUs, ContactUsAdmin)

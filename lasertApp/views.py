@@ -6,7 +6,7 @@ from django.shortcuts import render
 # Create your views here.
 from lasertApp.forms import ContactUsForm
 from lasertApp.models import Partners, Recommends, Clients, Solutions, Serivces, SolutionCategory, Careers, Subscribers, \
-    Slider, About
+    Slider, About, ContactUs
 from lasertApp.sessionManager import get_current_users, get_today_users, get_all_users
 from django.utils.translation import ugettext_lazy as _
 
@@ -39,6 +39,7 @@ def contact_us(request):
     else:
         form = ContactUsForm
     context['form'] = form
+    context['data'] = ContactUs.objects.all()[:1]
     return render(request, template, context=context)
 
 

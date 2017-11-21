@@ -13,7 +13,7 @@ MANAGED = True
 
 class Clients(models.Model):
     logo = models.ImageField(upload_to=settings.IMG_CLIENTS, verbose_name='Client Logo')
-    url = models.URLField(verbose_name='Client website', null=True,blank=True)
+    url = models.URLField(verbose_name='Client website', null=True, blank=True)
 
     class Meta:
         managed = MANAGED
@@ -197,15 +197,29 @@ class Slider(models.Model):
         verbose_name_plural = 'Home sliders'
 
 
+class ContactUs(models.Model):
+    data = models.TextField()
+    data_ar = models.TextField()
+
+
+    def __unicode__(self):
+        return 'Click to edit'
+
+    class Meta:
+        managed = MANAGED
+        db_table = 'contact_us'
+        verbose_name_plural = 'Contact us'
+
+
 class About(models.Model):
-    section_one_title  = models.CharField(max_length=150)
+    section_one_title = models.CharField(max_length=150)
     section_one_description = models.TextField()
     section_one_title_arabic = models.CharField(max_length=150)
     section_one_description_arabic = models.TextField()
     section_one_first_image = models.ImageField(upload_to=settings.IMG_ABOUT)
     section_one_second_image = models.ImageField(upload_to=settings.IMG_ABOUT)
 
-    section_two_title  = models.CharField(max_length=150)
+    section_two_title = models.CharField(max_length=150)
     section_two_description_html = models.TextField()
     section_two_title_arabic = models.CharField(max_length=150)
     section_two_description_html_arabic = models.TextField()
@@ -252,10 +266,9 @@ class About(models.Model):
         return self.section_three_description_html_arabic
 
     def __unicode__(self):
-        return str(self.pk)+'- Click to edit'
+        return str(self.pk) + '- Click to edit'
 
     class Meta:
         managed = MANAGED
         db_table = 'about'
         verbose_name_plural = 'About us page'
-
