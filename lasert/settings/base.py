@@ -15,9 +15,8 @@ from os.path import join, dirname, expanduser
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.join(dirname(dirname(__file__)), '..')
+
 TEMPLATE_DIR = BASE_DIR + '/templates'
-home = expanduser("~")
-PROJECT = '/opt/bitnami/apps/django/django_projects/lasert'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
@@ -28,7 +27,7 @@ SECRET_KEY = '=8!6=!r)+sg^7k4bem-r05xls_1heyd(ans-9ybd)19zjs3c$j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['107.180.106.251','lasertt.com','127.0.0.1','www.lasertt.com']
+ALLOWED_HOSTS = ['18.217.92.21','lasertt.com','127.0.0.1','www.lasertt.com']
 
 
 # Application definition
@@ -87,7 +86,7 @@ WSGI_APPLICATION = 'lasert.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT, 'db.sqlite3'),
+        'NAME': 'db.sqlite3',
     }
 }
 
